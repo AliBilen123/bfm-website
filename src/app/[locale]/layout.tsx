@@ -2,6 +2,7 @@ import { NextIntlClientProvider } from "next-intl";
 import { getMessages, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
+import Navbar from "@/components/Navbar";
 import "../globals.css";
 
 export function generateStaticParams() {
@@ -29,7 +30,8 @@ export default async function LocaleLayout({
     <html lang={locale}>
       <body className="bg-white text-gray-800 antialiased">
         <NextIntlClientProvider messages={messages}>
-          {children}
+          <Navbar />
+          <main className="pt-16">{children}</main>
         </NextIntlClientProvider>
       </body>
     </html>

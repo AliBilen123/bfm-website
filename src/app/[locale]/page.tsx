@@ -1,18 +1,23 @@
-import { useTranslations } from "next-intl";
 import { setRequestLocale } from "next-intl/server";
+import Hero from "@/components/Hero";
+import AboutUs from "@/components/AboutUs";
+import Services from "@/components/Services";
+import Pricing from "@/components/Pricing";
 
-export default function Home({
+export default async function Home({
   params,
 }: {
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 }) {
-  setRequestLocale(params.locale);
-  const t = useTranslations("hero");
+  const { locale } = await params;
+  setRequestLocale(locale);
 
   return (
-    <main>
-      <h1>{t("title")}</h1>
-      <p>{t("subtitle")}</p>
-    </main>
+    <>
+      <Hero />
+      <AboutUs />
+      <Services />
+      <Pricing />
+    </>
   );
 }
