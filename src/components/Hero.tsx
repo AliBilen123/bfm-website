@@ -13,9 +13,9 @@ export default function Hero() {
       <div className="absolute bottom-20 right-10 w-96 h-96 bg-accent-light/20 rounded-full blur-3xl" />
 
       <div className="relative z-10 mx-auto max-w-7xl px-4 w-full">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div>
           {/* Text */}
-          <div className="text-center lg:text-left">
+          <div className="text-center lg:text-left lg:max-w-xl">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-tight mb-6">
               {t("title")}
             </h1>
@@ -46,22 +46,18 @@ export default function Hero() {
             </div>
           </div>
 
-          {/* Team photo — fades into gradient */}
-          <div className="hidden lg:flex justify-center">
-            <div className="relative w-[500px] h-[400px]">
-              <Image
-                src="/images/team.jpg"
-                alt="Mehmet und Ali — BFM Gründer"
-                fill
-                className="object-cover object-top grayscale"
-                priority
-              />
-              {/* Fade edges into background */}
-              <div className="absolute inset-0 [mask-image:radial-gradient(ellipse_80%_80%_at_50%_40%,black_40%,transparent_75%)]" style={{ background: 'inherit' }} />
-              <div className="absolute inset-0 bg-gradient-to-r from-primary/80 via-transparent to-transparent" />
-              <div className="absolute inset-0 bg-gradient-to-t from-primary/60 via-transparent to-transparent" />
-              <div className="absolute inset-0 bg-gradient-to-b from-primary/40 via-transparent to-transparent" />
-            </div>
+          {/* Team photo — fades into gradient, full height */}
+          <div className="hidden lg:block absolute right-0 top-0 bottom-0 w-1/2">
+            <Image
+              src="/images/team.jpg"
+              alt="Mehmet und Ali — BFM Gründer"
+              fill
+              className="object-cover object-top grayscale opacity-60"
+              priority
+            />
+            {/* Fade into background */}
+            <div className="absolute inset-0 bg-gradient-to-r from-primary via-primary/50 to-transparent" />
+            <div className="absolute inset-0 bg-gradient-to-t from-primary/80 via-transparent to-primary/40" />
           </div>
         </div>
       </div>
