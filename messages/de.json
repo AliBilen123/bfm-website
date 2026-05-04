@@ -1,1 +1,167 @@
-{}
+{
+  "nav": {
+    "about": "Über uns",
+    "services": "Leistungen",
+    "pricing": "Preise",
+    "reviews": "Bewertungen",
+    "faq": "FAQ",
+    "contact": "Kontakt",
+    "impressum": "Impressum",
+    "datenschutz": "Datenschutz"
+  },
+  "hero": {
+    "title": "Qualifizierte Nachhilfe in Mühlacker",
+    "subtitle": "Unterstützung aus Mühlacker — für Mühlacker! Wir begleiten Schüler individuell auf ihrem Weg zum schulischen Erfolg.",
+    "cta": "Jetzt anfragen"
+  },
+  "about": {
+    "sectionTitle": "Über uns",
+    "intro": "Wir sind Mehmet und Ali — zwei Mühlacker Jungs mit einer Mission: Schülern die bestmögliche Unterstützung zu bieten. Mit über 5 Jahren Erfahrung und mehr als 50 zufriedenen Schülern stehen wir persönlich für Qualität.",
+    "mehmet": {
+      "name": "Mehmet Futsi",
+      "role": "Gründer & Nachhilfelehrer",
+      "description": "Spezialisiert auf Naturwissenschaften und Mathematik. Leidenschaftlicher Pädagoge mit dem Ziel, Schülern nicht nur Wissen, sondern auch Selbstvertrauen zu vermitteln."
+    },
+    "ali": {
+      "name": "Ali Bilen",
+      "role": "Gründer & Nachhilfelehrer",
+      "description": "Experte für Sprachen und geisteswissenschaftliche Fächer. Unterstützt Schüler mit individuellen Lernstrategien und gezielter Prüfungsvorbereitung."
+    }
+  },
+  "services": {
+    "sectionTitle": "Unsere Leistungen",
+    "nachhilfe": {
+      "title": "Nachhilfe",
+      "description": "Individuelle Nachhilfe in allen Fächern — Mathematik, Naturwissenschaften, Deutsch, Englisch, Französisch und Spanisch. Von der Grundschule bis zum Abitur.",
+      "features": ["Alle Fächer", "Grundschule bis Abitur", "Individuelle Betreuung"]
+    },
+    "pruefung": {
+      "title": "Prüfungsvorbereitung",
+      "description": "Gezielte Vorbereitung auf Abitur, Realschulabschluss und Hauptschulabschluss. Wir erarbeiten gemeinsam einen Lernplan und trainieren prüfungsrelevante Aufgaben.",
+      "features": ["Abitur", "Realschulabschluss", "Hauptschulabschluss"]
+    },
+    "bewerbung": {
+      "title": "Bewerbungscoaching",
+      "description": "Professionelle Unterstützung bei Bewerbungen — von der Erstellung Ihrer Unterlagen bis zur Vorbereitung auf Vorstellungsgespräche.",
+      "features": ["Bewerbungsunterlagen", "Vorstellungsgespräche", "Karriereberatung"]
+    }
+  },
+  "pricing": {
+    "sectionTitle": "Unsere Preise",
+    "subtitle": "Transparent und fair — je häufiger, desto günstiger.",
+    "perMonth": "/ Monat",
+    "from": "ab",
+    "cta": "Jetzt anfragen",
+    "popular": "Beliebteste Wahl",
+    "plans": {
+      "once": {
+        "title": "1x pro Woche",
+        "price": "95",
+        "features": ["1 Sitzung pro Woche", "Individueller Lernplan", "Alle Fächer verfügbar"]
+      },
+      "twice": {
+        "title": "2x pro Woche",
+        "price": "165",
+        "features": ["2 Sitzungen pro Woche", "Individueller Lernplan", "Alle Fächer verfügbar", "Regelmäßige Fortschrittsberichte"]
+      },
+      "thrice": {
+        "title": "3x pro Woche",
+        "price": "220",
+        "features": ["3 Sitzungen pro Woche", "Individueller Lernplan", "Alle Fächer verfügbar", "Regelmäßige Fortschrittsberichte", "Bester Preis pro Sitzung"]
+      }
+    }
+  },
+  "reviews": {
+    "sectionTitle": "Das sagen unsere Schüler",
+    "items": [
+      {
+        "name": "Elternstimme",
+        "text": "Dank BFM hat mein Sohn seine Mathenote von einer 5 auf eine 2 verbessert. Die individuelle Betreuung ist hervorragend!",
+        "rating": 5
+      },
+      {
+        "name": "Schülerstimme",
+        "text": "Super nette Nachhilfelehrer, die sich wirklich Zeit nehmen. Ich fühle mich jetzt viel sicherer in der Schule.",
+        "rating": 5
+      },
+      {
+        "name": "Elternstimme",
+        "text": "Sehr professionell und zuverlässig. Die Prüfungsvorbereitung hat meiner Tochter sehr geholfen. Klare Empfehlung!",
+        "rating": 5
+      }
+    ]
+  },
+  "faq": {
+    "sectionTitle": "Häufige Fragen",
+    "items": [
+      {
+        "question": "Welche Fächer bietet ihr an?",
+        "answer": "Wir bieten Nachhilfe in allen gängigen Schulfächern an: Mathematik, Naturwissenschaften (Physik, Chemie, Biologie), Deutsch, Englisch, Französisch und Spanisch."
+      },
+      {
+        "question": "Wie läuft eine Probestunde ab?",
+        "answer": "In der Probestunde lernen wir den Schüler kennen, ermitteln den aktuellen Wissensstand und erstellen einen individuellen Lernplan. Die Probestunde ist unverbindlich."
+      },
+      {
+        "question": "Wo findet die Nachhilfe statt?",
+        "answer": "Die Nachhilfe findet an unserem Standort in der Philipp-Bauer-Weg 2 in Mühlacker statt."
+      },
+      {
+        "question": "Kann ich die Häufigkeit wechseln?",
+        "answer": "Ja, selbstverständlich. Sie können jederzeit zwischen unseren Paketen (1x, 2x oder 3x pro Woche) wechseln. Sprechen Sie uns einfach an."
+      }
+    ]
+  },
+  "contact": {
+    "sectionTitle": "Kontakt",
+    "subtitle": "Haben Sie Fragen oder möchten Sie eine Probestunde vereinbaren? Schreiben Sie uns!",
+    "form": {
+      "name": "Name",
+      "email": "E-Mail",
+      "phone": "Telefon (optional)",
+      "subject": "Fach / Klassenstufe (optional)",
+      "message": "Ihre Nachricht",
+      "submit": "Nachricht senden",
+      "success": "Vielen Dank! Wir melden uns innerhalb von 24 Stunden bei Ihnen.",
+      "error": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut."
+    },
+    "info": {
+      "phone": "+49 174 388 96 92",
+      "email": "info@bfm-muehlacker.de",
+      "address": "Philipp-Bauer-Weg 2, Mühlacker"
+    }
+  },
+  "footer": {
+    "copyright": "© 2026 BFM — Bildung für Mühlacker. Alle Rechte vorbehalten.",
+    "madeWith": "Mit Liebe aus Mühlacker"
+  },
+  "impressum": {
+    "title": "Impressum",
+    "content": "Angaben gemäß § 5 TMG\n\nMehmet Futsi & Ali Bilen GbR\nBFM — Bildung für Mühlacker\nPhilipp-Bauer-Weg 2\n75417 Mühlacker\n\nKontakt:\nTelefon: +49 174 388 96 92\nE-Mail: info@bfm-muehlacker.de\n\nVerantwortlich für den Inhalt nach § 55 Abs. 2 RStV:\nMehmet Futsi & Ali Bilen\nPhilipp-Bauer-Weg 2\n75417 Mühlacker"
+  },
+  "datenschutz": {
+    "title": "Datenschutzerklärung",
+    "sections": [
+      {
+        "heading": "1. Verantwortlicher",
+        "text": "Verantwortlicher für die Datenverarbeitung auf dieser Website ist:\n\nMehmet Futsi & Ali Bilen GbR\nPhilipp-Bauer-Weg 2\n75417 Mühlacker\nE-Mail: info@bfm-muehlacker.de"
+      },
+      {
+        "heading": "2. Erhebung und Speicherung personenbezogener Daten",
+        "text": "Beim Besuch unserer Website werden automatisch Informationen durch den Hosting-Anbieter (GitHub Pages) erfasst. Diese Daten (Server-Logfiles) umfassen den Browsertyp, das Betriebssystem, die Referrer-URL, den Hostname des zugreifenden Rechners und die Uhrzeit der Serveranfrage."
+      },
+      {
+        "heading": "3. Kontaktformular",
+        "text": "Wenn Sie uns über das Kontaktformular Anfragen zukommen lassen, werden Ihre Angaben aus dem Formular inklusive der dort angegebenen Kontaktdaten zur Bearbeitung der Anfrage bei uns gespeichert. Das Kontaktformular wird über den Dienst Formspree (formspree.io) verarbeitet. Formspree speichert Ihre Daten gemäß deren Datenschutzrichtlinie."
+      },
+      {
+        "heading": "4. Google Maps",
+        "text": "Diese Website nutzt den Kartendienst Google Maps. Anbieter ist die Google Ireland Limited. Durch die Nutzung von Google Maps können Informationen über Ihre Benutzung dieser Website an Google übertragen werden."
+      },
+      {
+        "heading": "5. Ihre Rechte",
+        "text": "Sie haben das Recht auf Auskunft, Berichtigung, Löschung und Einschränkung der Verarbeitung Ihrer personenbezogenen Daten. Sie haben zudem das Recht, der Datenverarbeitung zu widersprechen und das Recht auf Datenübertragbarkeit. Zur Ausübung Ihrer Rechte kontaktieren Sie uns bitte unter info@bfm-muehlacker.de."
+      }
+    ]
+  }
+}

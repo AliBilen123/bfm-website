@@ -1,0 +1,167 @@
+{
+  "nav": {
+    "about": "Hakkımızda",
+    "services": "Hizmetler",
+    "pricing": "Fiyatlar",
+    "reviews": "Değerlendirmeler",
+    "faq": "SSS",
+    "contact": "İletişim",
+    "impressum": "Künye",
+    "datenschutz": "Gizlilik Politikası"
+  },
+  "hero": {
+    "title": "Mühlacker'de Nitelikli Özel Ders",
+    "subtitle": "Mühlacker'den destek — Mühlacker için! Öğrencilere okul başarılarında bireysel olarak eşlik ediyoruz.",
+    "cta": "Hemen başvurun"
+  },
+  "about": {
+    "sectionTitle": "Hakkımızda",
+    "intro": "Biz Mehmet ve Ali — bir misyonu olan iki Mühlackerli genç: Öğrencilere mümkün olan en iyi desteği sunmak. 5 yılı aşkın deneyim ve 50'den fazla memnun öğrenciyle kalite için kişisel olarak garanti veriyoruz.",
+    "mehmet": {
+      "name": "Mehmet Futsi",
+      "role": "Kurucu & Özel Ders Öğretmeni",
+      "description": "Fen bilimleri ve matematik alanında uzmanlaşmıştır. Öğrencilere sadece bilgi değil, aynı zamanda özgüven kazandırmayı hedefleyen tutkulu bir eğitimci."
+    },
+    "ali": {
+      "name": "Ali Bilen",
+      "role": "Kurucu & Özel Ders Öğretmeni",
+      "description": "Diller ve sosyal bilimler alanında uzman. Öğrencileri bireysel öğrenme stratejileri ve hedefli sınav hazırlığı ile destekler."
+    }
+  },
+  "services": {
+    "sectionTitle": "Hizmetlerimiz",
+    "nachhilfe": {
+      "title": "Özel Ders",
+      "description": "Tüm derslerde bireysel özel ders — Matematik, Fen Bilimleri, Almanca, İngilizce, Fransızca ve İspanyolca. İlkokuldan abitura kadar.",
+      "features": ["Tüm dersler", "İlkokuldan abitura kadar", "Bireysel destek"]
+    },
+    "pruefung": {
+      "title": "Sınav Hazırlığı",
+      "description": "Abitur, Realschule ve Hauptschule diplomaları için hedefli hazırlık. Birlikte bir çalışma planı oluşturuyor ve sınav konularını çalışıyoruz.",
+      "features": ["Abitur", "Realschule diploması", "Hauptschule diploması"]
+    },
+    "bewerbung": {
+      "title": "Başvuru Koçluğu",
+      "description": "Başvurularda profesyonel destek — belgelerinizin hazırlanmasından iş görüşmelerine hazırlığa kadar.",
+      "features": ["Başvuru belgeleri", "İş görüşmeleri", "Kariyer danışmanlığı"]
+    }
+  },
+  "pricing": {
+    "sectionTitle": "Fiyatlarımız",
+    "subtitle": "Şeffaf ve adil — ne kadar sık, o kadar uygun.",
+    "perMonth": "/ Ay",
+    "from": "itibaren",
+    "cta": "Hemen başvurun",
+    "popular": "En popüler seçim",
+    "plans": {
+      "once": {
+        "title": "Haftada 1 kez",
+        "price": "95",
+        "features": ["Haftada 1 ders", "Bireysel çalışma planı", "Tüm dersler mevcut"]
+      },
+      "twice": {
+        "title": "Haftada 2 kez",
+        "price": "165",
+        "features": ["Haftada 2 ders", "Bireysel çalışma planı", "Tüm dersler mevcut", "Düzenli ilerleme raporları"]
+      },
+      "thrice": {
+        "title": "Haftada 3 kez",
+        "price": "220",
+        "features": ["Haftada 3 ders", "Bireysel çalışma planı", "Tüm dersler mevcut", "Düzenli ilerleme raporları", "Ders başına en iyi fiyat"]
+      }
+    }
+  },
+  "reviews": {
+    "sectionTitle": "Öğrencilerimiz ne diyor",
+    "items": [
+      {
+        "name": "Veli görüşü",
+        "text": "BFM sayesinde oğlum matematik notunu 5'ten 2'ye yükseltti. Bireysel destek mükemmel!",
+        "rating": 5
+      },
+      {
+        "name": "Öğrenci görüşü",
+        "text": "Gerçekten zaman ayıran çok iyi öğretmenler. Artık okulda kendimi çok daha güvende hissediyorum.",
+        "rating": 5
+      },
+      {
+        "name": "Veli görüşü",
+        "text": "Çok profesyonel ve güvenilir. Sınav hazırlığı kızıma çok yardımcı oldu. Kesinlikle tavsiye ederim!",
+        "rating": 5
+      }
+    ]
+  },
+  "faq": {
+    "sectionTitle": "Sıkça Sorulan Sorular",
+    "items": [
+      {
+        "question": "Hangi dersleri sunuyorsunuz?",
+        "answer": "Tüm yaygın okul derslerinde özel ders sunuyoruz: Matematik, Fen Bilimleri (Fizik, Kimya, Biyoloji), Almanca, İngilizce, Fransızca ve İspanyolca."
+      },
+      {
+        "question": "Deneme dersi nasıl işliyor?",
+        "answer": "Deneme dersinde öğrenciyi tanıyor, mevcut bilgi seviyesini belirliyoruz ve bireysel bir çalışma planı oluşturuyoruz. Deneme dersi bağlayıcı değildir."
+      },
+      {
+        "question": "Özel ders nerede yapılıyor?",
+        "answer": "Özel dersler Mühlacker'deki Philipp-Bauer-Weg 2 adresindeki merkezimizde yapılmaktadır."
+      },
+      {
+        "question": "Sıklığı değiştirebilir miyim?",
+        "answer": "Evet, elbette. Paketlerimiz (haftada 1, 2 veya 3 kez) arasında istediğiniz zaman geçiş yapabilirsiniz. Bize ulaşmanız yeterli."
+      }
+    ]
+  },
+  "contact": {
+    "sectionTitle": "İletişim",
+    "subtitle": "Sorularınız mı var veya deneme dersi ayarlamak mı istiyorsunuz? Bize yazın!",
+    "form": {
+      "name": "İsim",
+      "email": "E-Posta",
+      "phone": "Telefon (isteğe bağlı)",
+      "subject": "Ders / Sınıf (isteğe bağlı)",
+      "message": "Mesajınız",
+      "submit": "Mesaj gönder",
+      "success": "Teşekkürler! 24 saat içinde size geri döneceğiz.",
+      "error": "Bir şeyler ters gitti. Lütfen tekrar deneyin."
+    },
+    "info": {
+      "phone": "+49 174 388 96 92",
+      "email": "info@bfm-muehlacker.de",
+      "address": "Philipp-Bauer-Weg 2, Mühlacker"
+    }
+  },
+  "footer": {
+    "copyright": "© 2026 BFM — Bildung für Mühlacker. Tüm hakları saklıdır.",
+    "madeWith": "Mühlacker'den sevgiyle yapıldı"
+  },
+  "impressum": {
+    "title": "Künye",
+    "content": "§ 5 TMG gereğince bilgiler\n\nMehmet Futsi & Ali Bilen GbR\nBFM — Bildung für Mühlacker\nPhilipp-Bauer-Weg 2\n75417 Mühlacker\n\nİletişim:\nTelefon: +49 174 388 96 92\nE-Posta: info@bfm-muehlacker.de\n\n§ 55 Abs. 2 RStV gereğince içerikten sorumlu:\nMehmet Futsi & Ali Bilen\nPhilipp-Bauer-Weg 2\n75417 Mühlacker"
+  },
+  "datenschutz": {
+    "title": "Gizlilik Politikası",
+    "sections": [
+      {
+        "heading": "1. Sorumlu",
+        "text": "Bu web sitesindeki veri işlemeden sorumlu olan:\n\nMehmet Futsi & Ali Bilen GbR\nPhilipp-Bauer-Weg 2\n75417 Mühlacker\nE-Posta: info@bfm-muehlacker.de"
+      },
+      {
+        "heading": "2. Kişisel verilerin toplanması ve saklanması",
+        "text": "Web sitemizi ziyaret ettiğinizde, barındırma sağlayıcısı (GitHub Pages) tarafından otomatik olarak bilgiler kaydedilir. Bu veriler (sunucu günlük dosyaları) tarayıcı türü, işletim sistemi, yönlendiren URL, erişen bilgisayarın ana bilgisayar adı ve sunucu isteğinin zamanını içerir."
+      },
+      {
+        "heading": "3. İletişim formu",
+        "text": "Bize iletişim formu aracılığıyla sorular gönderdiğinizde, formda belirttiğiniz iletişim verileri dahil olmak üzere bilgileriniz talebin işlenmesi için tarafımızda saklanır. İletişim formu Formspree (formspree.io) hizmeti aracılığıyla işlenir."
+      },
+      {
+        "heading": "4. Google Maps",
+        "text": "Bu web sitesi Google Maps harita hizmetini kullanmaktadır. Sağlayıcı Google Ireland Limited'dir. Google Maps kullanımı yoluyla, bu web sitesini kullanımınız hakkında bilgiler Google'a iletilebilir."
+      },
+      {
+        "heading": "5. Haklarınız",
+        "text": "Kişisel verilerinizin bilgilendirilmesi, düzeltilmesi, silinmesi ve işlenmesinin kısıtlanması hakkına sahipsiniz. Ayrıca veri işlemeye itiraz etme ve veri taşınabilirliği hakkına sahipsiniz. Haklarınızı kullanmak için lütfen info@bfm-muehlacker.de adresinden bize ulaşın."
+      }
+    ]
+  }
+}
