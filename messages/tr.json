@@ -57,17 +57,17 @@
       "once": {
         "title": "Haftada 1 kez",
         "price": "95",
-        "features": ["Haftada 1 ders", "Bireysel çalışma planı", "Tüm dersler mevcut"]
+        "features": ["Haftada 1 ders", "Bireysel çalışma planı", "Tüm dersler mevcut", "Hedefli destek ihtiyacı için ideal"]
       },
       "twice": {
         "title": "Haftada 2 kez",
         "price": "165",
-        "features": ["Haftada 2 ders", "Bireysel çalışma planı", "Tüm dersler mevcut", "Düzenli ilerleme raporları"]
+        "features": ["Haftada 2 ders", "Bireysel çalışma planı", "Tüm dersler mevcut", "Düzenli destek ihtiyacı olan öğrenciler için"]
       },
       "thrice": {
         "title": "Haftada 3 kez",
         "price": "220",
-        "features": ["Haftada 3 ders", "Bireysel çalışma planı", "Tüm dersler mevcut", "Düzenli ilerleme raporları", "Ders başına en iyi fiyat"]
+        "features": ["Haftada 3 ders", "Bireysel çalışma planı", "Tüm dersler mevcut", "Birden fazla derste büyük eksiklikler için", "Ders başına en iyi fiyat"]
       }
     }
   },

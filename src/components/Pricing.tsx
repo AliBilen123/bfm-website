@@ -19,7 +19,7 @@ export default function Pricing() {
 
         <div className="grid md:grid-cols-3 gap-8 items-start">
           {planKeys.map((key) => {
-            const isPopular = key === "thrice";
+            const isPopular = key === "twice";
             const features = t.raw(`plans.${key}.features`) as string[];
 
             return (

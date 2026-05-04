@@ -57,17 +57,17 @@
       "once": {
         "title": "1x pro Woche",
         "price": "95",
-        "features": ["1 Sitzung pro Woche", "Individueller Lernplan", "Alle Fächer verfügbar"]
+        "features": ["1 Sitzung pro Woche", "Individueller Lernplan", "Alle Fächer verfügbar", "Ideal bei gezieltem Förderbedarf"]
       },
       "twice": {
         "title": "2x pro Woche",
         "price": "165",
-        "features": ["2 Sitzungen pro Woche", "Individueller Lernplan", "Alle Fächer verfügbar", "Regelmäßige Fortschrittsberichte"]
+        "features": ["2 Sitzungen pro Woche", "Individueller Lernplan", "Alle Fächer verfügbar", "Für Schüler mit regelmäßigem Unterstützungsbedarf"]
       },
       "thrice": {
         "title": "3x pro Woche",
         "price": "220",
-        "features": ["3 Sitzungen pro Woche", "Individueller Lernplan", "Alle Fächer verfügbar", "Regelmäßige Fortschrittsberichte", "Bester Preis pro Sitzung"]
+        "features": ["3 Sitzungen pro Woche", "Individueller Lernplan", "Alle Fächer verfügbar", "Bei größeren Lücken in mehreren Fächern", "Bester Preis pro Sitzung"]
       }
     }
   },
