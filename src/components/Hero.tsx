@@ -25,8 +25,6 @@ export default function Hero() {
         <div className="absolute inset-0 bg-gradient-to-t from-primary/90 via-transparent to-transparent" />
         {/* Fade top */}
         <div className="absolute inset-0 bg-gradient-to-b from-primary/60 via-transparent to-transparent" />
-        {/* Fade right edge */}
-        <div className="absolute inset-0 bg-gradient-to-l from-accent/70 to-transparent to-30%" />
       </div>
 
       {/* Decorative circles */}
