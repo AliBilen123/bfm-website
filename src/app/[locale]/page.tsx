@@ -1,4 +1,5 @@
 import { setRequestLocale } from "next-intl/server";
+import Script from "next/script";
 import Hero from "@/components/Hero";
 import AboutUs from "@/components/AboutUs";
 import Services from "@/components/Services";
@@ -17,6 +18,30 @@ export default async function Home({
 
   return (
     <>
+      <Script
+        id="json-ld"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "EducationalOrganization",
+            name: "BFM — Bildung für Mühlacker",
+            description: "Qualifizierte Nachhilfe in Mühlacker",
+            url: "https://bfm-muehlacker.de",
+            telephone: "+491743889692",
+            email: "info@bfm-muehlacker.de",
+            address: {
+              "@type": "PostalAddress",
+              streetAddress: "Philipp-Bauer-Weg 2",
+              addressLocality: "Mühlacker",
+              postalCode: "75417",
+              addressCountry: "DE",
+            },
+            areaServed: "Mühlacker",
+            founder: ["Mehmet Futsi", "Ali Bilen"],
+          }),
+        }}
+      />
       <Hero />
       <AboutUs />
       <Services />
