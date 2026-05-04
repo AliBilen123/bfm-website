@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { useTranslations, useLocale } from "next-intl";
+import Image from "next/image";
 import Link from "next/link";
 
 const navLinks = [
@@ -26,11 +27,20 @@ export default function Navbar() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
-          <Link href={`/${locale}/`} className="flex items-baseline gap-2">
-            <span className="text-2xl font-extrabold text-primary">BFM</span>
-            <span className="hidden sm:inline text-sm text-gray-500">
-              Bildung für Mühlacker
-            </span>
+          <Link href={`/${locale}/`} className="flex items-center gap-2">
+            <Image
+              src="/images/logo.png"
+              alt="BFM Logo"
+              width={40}
+              height={40}
+              className="h-10 w-10"
+            />
+            <div className="flex flex-col">
+              <span className="text-xl font-extrabold text-primary leading-tight">BFM</span>
+              <span className="hidden sm:inline text-xs text-gray-500 leading-tight">
+                Bildung für Mühlacker
+              </span>
+            </div>
           </Link>
 
           {/* Desktop nav */}
