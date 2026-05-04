@@ -1,6 +1,7 @@
 "use client";
 
 import { useTranslations, useLocale } from "next-intl";
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Footer() {
@@ -13,11 +14,14 @@ export default function Footer() {
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid md:grid-cols-3 gap-12">
           {/* Brand */}
-          <div>
-            <h3 className="text-2xl font-extrabold mb-2">BFM</h3>
-            <p className="text-white/70 text-sm">
-              Bildung f&uuml;r M&uuml;hlacker
-            </p>
+          <div className="flex items-center gap-3">
+            <Image
+              src="/images/logo.png"
+              alt="BFM Logo"
+              width={200}
+              height={104}
+              className="h-12 w-auto brightness-0 invert"
+            />
           </div>
 
           {/* Links */}
