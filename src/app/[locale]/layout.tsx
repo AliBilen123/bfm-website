@@ -13,26 +13,34 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
-  const isDE = locale === "de";
+  const titles: Record<string, string> = {
+    de: "BFM — Qualifizierte Nachhilfe in Mühlacker",
+    en: "BFM — Qualified Tutoring in Mühlacker",
+    tr: "BFM — Mühlacker'de Nitelikli Özel Ders",
+    ar: "BFM — دروس خصوصية مؤهلة في مولاكر",
+  };
+  const descriptions: Record<string, string> = {
+    de: "Individuelle Nachhilfe in Mühlacker. Alle Fächer, Prüfungsvorbereitung und Bewerbungscoaching. Über 50 zufriedene Schüler.",
+    en: "Individual tutoring in Mühlacker. All subjects, exam preparation and application coaching. Over 50 satisfied students.",
+    tr: "Mühlacker'de bireysel özel ders. Tüm dersler, sınav hazırlığı ve başvuru koçluğu.",
+    ar: "دروس خصوصية فردية في مولاكر. جميع المواد، التحضير للامتحانات والتدريب على التقديم.",
+  };
+  const localeMap: Record<string, string> = {
+    de: "de_DE", en: "en_US", tr: "tr_TR", ar: "ar_SA",
+  };
 
   return {
     title: {
-      default: isDE
-        ? "BFM — Qualifizierte Nachhilfe in Mühlacker"
-        : "BFM — Mühlacker'de Nitelikli Özel Ders",
+      default: titles[locale] || titles.de,
       template: "%s | BFM Mühlacker",
     },
-    description: isDE
-      ? "Individuelle Nachhilfe in Mühlacker. Alle Fächer, Prüfungsvorbereitung und Bewerbungscoaching. Über 50 zufriedene Schüler."
-      : "Mühlacker'de bireysel özel ders. Tüm dersler, sınav hazırlığı ve başvuru koçluğu.",
+    description: descriptions[locale] || descriptions.de,
     openGraph: {
       title: "BFM — Bildung für Mühlacker",
-      description: isDE
-        ? "Ihre erste Wahl für qualifizierte Nachhilfe in Mühlacker"
-        : "Mühlacker'de nitelikli özel ders için ilk tercihiniz",
+      description: descriptions[locale] || descriptions.de,
       url: "https://bfm-muehlacker.de",
       siteName: "BFM Mühlacker",
-      locale: isDE ? "de_DE" : "tr_TR",
+      locale: localeMap[locale] || "de_DE",
       type: "website",
     },
   };
@@ -51,7 +59,7 @@ export default async function LocaleLayout({
 }) {
   const { locale } = await params;
 
-  if (!routing.locales.includes(locale as "de" | "tr")) {
+  if (!routing.locales.includes(locale as "de" | "en" | "tr" | "ar")) {
     notFound();
   }
 
@@ -60,7 +68,7 @@ export default async function LocaleLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale}>
+    <html lang={locale} dir={locale === "ar" ? "rtl" : "ltr"}>
       <body className="bg-white text-gray-800 antialiased">
         <NextIntlClientProvider messages={messages}>
           <Navbar />

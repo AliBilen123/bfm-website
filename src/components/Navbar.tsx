@@ -14,13 +14,20 @@ const navLinks = [
   { key: "contact", href: "#contact" },
 ];
 
+const languages = [
+  { code: "de", flag: "🇩🇪", label: "DE" },
+  { code: "en", flag: "🇬🇧", label: "EN" },
+  { code: "tr", flag: "🇹🇷", label: "TR" },
+  { code: "ar", flag: "🇸🇦", label: "AR" },
+] as const;
+
 export default function Navbar() {
   const t = useTranslations("nav");
   const locale = useLocale();
   const [open, setOpen] = useState(false);
+  const [langOpen, setLangOpen] = useState(false);
 
-  const otherLocale = locale === "de" ? "tr" : "de";
-  const switchLabel = locale === "de" ? "TR" : "DE";
+  const currentLang = languages.find((l) => l.code === locale) || languages[0];
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md shadow-sm">
@@ -31,16 +38,10 @@ export default function Navbar() {
             <Image
               src="/images/logo.png"
               alt="BFM Logo"
-              width={40}
-              height={40}
-              className="h-10 w-10"
+              width={200}
+              height={104}
+              className="h-10 w-auto"
             />
-            <div className="flex flex-col">
-              <span className="text-xl font-extrabold text-primary leading-tight">BFM</span>
-              <span className="hidden sm:inline text-xs text-gray-500 leading-tight">
-                Bildung für Mühlacker
-              </span>
-            </div>
           </Link>
 
           {/* Desktop nav */}
@@ -58,13 +59,44 @@ export default function Navbar() {
 
           {/* Right side */}
           <div className="flex items-center gap-3">
-            {/* Language switcher */}
-            <Link
-              href={`/${otherLocale}/`}
-              className="rounded-full border border-primary/20 px-3 py-1 text-sm font-semibold text-primary hover:bg-primary hover:text-white transition-colors"
-            >
-              {switchLabel}
-            </Link>
+            {/* Language dropdown */}
+            <div className="relative">
+              <button
+                onClick={() => setLangOpen(!langOpen)}
+                className="flex items-center gap-1.5 rounded-full border border-primary/20 px-3 py-1.5 text-sm font-semibold text-primary hover:bg-primary/5 transition-colors"
+              >
+                <span className="text-base">{currentLang.flag}</span>
+                <span>{currentLang.label}</span>
+                <svg
+                  className={`w-3.5 h-3.5 transition-transform ${langOpen ? "rotate-180" : ""}`}
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+
+              {langOpen && (
+                <div className="absolute right-0 mt-2 w-36 bg-white rounded-xl shadow-lg border border-gray-100 py-1 z-50">
+                  {languages.map((lang) => (
+                    <Link
+                      key={lang.code}
+                      href={`/${lang.code}/`}
+                      onClick={() => setLangOpen(false)}
+                      className={`flex items-center gap-2 px-4 py-2 text-sm transition-colors ${
+                        lang.code === locale
+                          ? "bg-primary/5 text-primary font-semibold"
+                          : "text-gray-700 hover:bg-gray-50"
+                      }`}
+                    >
+                      <span className="text-base">{lang.flag}</span>
+                      <span>{lang.label}</span>
+                    </Link>
+                  ))}
+                </div>
+              )}
+            </div>
 
             {/* Mobile hamburger */}
             <button

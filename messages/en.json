@@ -1,0 +1,167 @@
+{
+  "nav": {
+    "about": "About Us",
+    "services": "Services",
+    "pricing": "Pricing",
+    "reviews": "Reviews",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "impressum": "Legal Notice",
+    "datenschutz": "Privacy Policy"
+  },
+  "hero": {
+    "title": "Qualified Tutoring in Mühlacker",
+    "subtitle": "Support from Mühlacker — for Mühlacker! We personally guide students on their path to academic success.",
+    "cta": "Get in touch"
+  },
+  "about": {
+    "sectionTitle": "About Us",
+    "intro": "We are Mehmet and Ali — two guys from Mühlacker with a mission: to provide students with the best possible support. With over 5 years of experience and more than 50 satisfied students, we personally stand for quality.",
+    "mehmet": {
+      "name": "Mehmet Futsi",
+      "role": "Co-founder & Tutor",
+      "description": "Specialised in natural sciences and mathematics. A passionate educator whose goal is to give students not just knowledge, but also confidence."
+    },
+    "ali": {
+      "name": "Ali Bilen",
+      "role": "Co-founder & Tutor",
+      "description": "Expert in languages and humanities. Supports students with individual learning strategies and targeted exam preparation."
+    }
+  },
+  "services": {
+    "sectionTitle": "Our Services",
+    "nachhilfe": {
+      "title": "Tutoring",
+      "description": "Individual tutoring in all subjects — Mathematics, Natural Sciences, German, English, French and Spanish. From primary school to the Abitur.",
+      "features": ["All subjects", "Primary school to Abitur", "Individual support"]
+    },
+    "pruefung": {
+      "title": "Exam Preparation",
+      "description": "Targeted preparation for the Abitur, Realschulabschluss and Hauptschulabschluss. We develop a study plan together and practise exam-relevant tasks.",
+      "features": ["Abitur", "Realschulabschluss", "Hauptschulabschluss"]
+    },
+    "bewerbung": {
+      "title": "Application Coaching",
+      "description": "Professional support with job applications — from preparing your documents to getting ready for interviews.",
+      "features": ["Application documents", "Job interviews", "Career counselling"]
+    }
+  },
+  "pricing": {
+    "sectionTitle": "Our Pricing",
+    "subtitle": "Transparent and fair — the more often, the better the value.",
+    "perMonth": "/ month",
+    "from": "from",
+    "cta": "Get in touch",
+    "popular": "Most popular",
+    "plans": {
+      "once": {
+        "title": "1x per week",
+        "price": "95",
+        "features": ["1 session per week", "Individual study plan", "All subjects available", "Ideal for targeted support needs"]
+      },
+      "twice": {
+        "title": "2x per week",
+        "price": "165",
+        "features": ["2 sessions per week", "Individual study plan", "All subjects available", "For students with regular support needs"]
+      },
+      "thrice": {
+        "title": "3x per week",
+        "price": "220",
+        "features": ["3 sessions per week", "Individual study plan", "All subjects available", "For larger gaps across multiple subjects", "Best price per session"]
+      }
+    }
+  },
+  "reviews": {
+    "sectionTitle": "What our students say",
+    "items": [
+      {
+        "name": "Parent review",
+        "text": "Thanks to BFM, my son improved his maths grade from a 5 to a 2. The individual support is excellent!",
+        "rating": 5
+      },
+      {
+        "name": "Student review",
+        "text": "Super friendly tutors who really take the time. I feel much more confident at school now.",
+        "rating": 5
+      },
+      {
+        "name": "Parent review",
+        "text": "Very professional and reliable. The exam preparation helped my daughter a great deal. Highly recommended!",
+        "rating": 5
+      }
+    ]
+  },
+  "faq": {
+    "sectionTitle": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "Which subjects do you offer?",
+        "answer": "We offer tutoring in all common school subjects: Mathematics, Natural Sciences (Physics, Chemistry, Biology), German, English, French and Spanish."
+      },
+      {
+        "question": "How does a trial lesson work?",
+        "answer": "In the trial lesson we get to know the student, assess their current level and create an individual study plan. The trial lesson is non-binding."
+      },
+      {
+        "question": "Where does the tutoring take place?",
+        "answer": "Tutoring takes place at our location at Philipp-Bauer-Weg 2 in Mühlacker."
+      },
+      {
+        "question": "Can I change the frequency?",
+        "answer": "Yes, of course. You can switch between our packages (1x, 2x or 3x per week) at any time. Just get in touch with us."
+      }
+    ]
+  },
+  "contact": {
+    "sectionTitle": "Contact",
+    "subtitle": "Do you have questions or would you like to arrange a trial lesson? Write to us!",
+    "form": {
+      "name": "Name",
+      "email": "E-mail",
+      "phone": "Phone (optional)",
+      "subject": "Subject / Year group (optional)",
+      "message": "Your message",
+      "submit": "Send message",
+      "success": "Thank you! We will get back to you within 24 hours.",
+      "error": "Something went wrong. Please try again."
+    },
+    "info": {
+      "phone": "+49 174 388 96 92",
+      "email": "info@bfm-muehlacker.de",
+      "address": "Philipp-Bauer-Weg 2, Mühlacker"
+    }
+  },
+  "footer": {
+    "copyright": "© 2026 BFM — Bildung für Mühlacker. All rights reserved.",
+    "madeWith": "Made with love from Mühlacker"
+  },
+  "impressum": {
+    "title": "Legal Notice",
+    "content": "Information pursuant to § 5 TMG\n\nMehmet Futsi & Ali Bilen GbR\nBFM — Bildung für Mühlacker\nPhilipp-Bauer-Weg 2\n75417 Mühlacker\n\nContact:\nPhone: +49 174 388 96 92\nE-mail: info@bfm-muehlacker.de\n\nResponsible for content pursuant to § 55 Abs. 2 RStV:\nMehmet Futsi & Ali Bilen\nPhilipp-Bauer-Weg 2\n75417 Mühlacker"
+  },
+  "datenschutz": {
+    "title": "Privacy Policy",
+    "sections": [
+      {
+        "heading": "1. Controller",
+        "text": "The controller responsible for data processing on this website is:\n\nMehmet Futsi & Ali Bilen GbR\nPhilipp-Bauer-Weg 2\n75417 Mühlacker\nE-mail: info@bfm-muehlacker.de"
+      },
+      {
+        "heading": "2. Collection and storage of personal data",
+        "text": "When you visit our website, information is automatically collected by the hosting provider (GitHub Pages). This data (server log files) includes the browser type, operating system, referrer URL, hostname of the accessing device and the time of the server request."
+      },
+      {
+        "heading": "3. Contact form",
+        "text": "If you send us enquiries via the contact form, your details from the form, including the contact information provided, will be stored with us for the purpose of processing the request. The contact form is processed via the Formspree service (formspree.io). Formspree stores your data in accordance with their privacy policy."
+      },
+      {
+        "heading": "4. Google Maps",
+        "text": "This website uses the Google Maps mapping service. The provider is Google Ireland Limited. Through the use of Google Maps, information about your use of this website may be transmitted to Google."
+      },
+      {
+        "heading": "5. Your rights",
+        "text": "You have the right to access, rectification, erasure and restriction of processing of your personal data. You also have the right to object to data processing and the right to data portability. To exercise your rights, please contact us at info@bfm-muehlacker.de."
+      }
+    ]
+  }
+}
