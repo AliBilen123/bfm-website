@@ -48,12 +48,12 @@ export default function Hero() {
 
           {/* Team photo */}
           <div className="hidden lg:flex justify-center">
-            <div className="relative w-[420px] h-[320px] rounded-2xl overflow-hidden shadow-2xl border-4 border-white/20">
+            <div className="relative w-[500px] h-[400px] rounded-2xl overflow-hidden shadow-2xl border-4 border-white/20">
               <Image
                 src="/images/team.jpg"
                 alt="Mehmet und Ali — BFM Gründer"
                 fill
-                className="object-cover object-top"
+                className="object-cover object-top grayscale"
                 priority
               />
             </div>
