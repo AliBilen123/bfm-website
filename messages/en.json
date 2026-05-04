@@ -124,6 +124,15 @@
       }
     ]
   },
+  "trial": {
+    "title": "Free Taster Day!",
+    "subtitle": "Get to know us with no obligations — your child can attend a full day of lessons for free.",
+    "cta": "Book a taster day"
+  },
+  "cookies": {
+    "message": "This website uses Google Maps. By using this website, you agree to data processing by Google.",
+    "accept": "Got it"
+  },
   "contact": {
     "sectionTitle": "Contact",
     "subtitle": "Do you have questions or would you like to arrange a trial lesson? Write to us!",

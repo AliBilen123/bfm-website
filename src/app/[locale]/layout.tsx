@@ -5,6 +5,8 @@ import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import WhatsAppButton from "@/components/WhatsAppButton";
+import CookieBanner from "@/components/CookieBanner";
 import "../globals.css";
 
 export async function generateMetadata({
@@ -74,6 +76,8 @@ export default async function LocaleLayout({
           <Navbar />
           <main className="pt-16">{children}</main>
           <Footer />
+          <WhatsAppButton />
+          <CookieBanner />
         </NextIntlClientProvider>
       </body>
     </html>

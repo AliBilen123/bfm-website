@@ -124,6 +124,15 @@
       }
     ]
   },
+  "trial": {
+    "title": "Ücretsiz Deneme Günü!",
+    "subtitle": "Bizi bağlayıcı olmadan tanıyın — çocuğunuz bir gün boyunca ücretsiz derslere katılabilir.",
+    "cta": "Deneme günü ayarlayın"
+  },
+  "cookies": {
+    "message": "Bu web sitesi Google Maps kullanmaktadır. Bu web sitesini kullanarak Google tarafından veri işlenmesini kabul etmiş olursunuz.",
+    "accept": "Anladım"
+  },
   "contact": {
     "sectionTitle": "İletişim",
     "subtitle": "Sorularınız mı var veya deneme dersi ayarlamak mı istiyorsunuz? Bize yazın!",

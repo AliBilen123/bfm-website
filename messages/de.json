@@ -124,6 +124,15 @@
       }
     ]
   },
+  "trial": {
+    "title": "Kostenloser Schnuppertag!",
+    "subtitle": "Lernen Sie uns unverbindlich kennen — Ihr Kind kann einen Tag lang kostenlos am Unterricht teilnehmen.",
+    "cta": "Schnuppertag vereinbaren"
+  },
+  "cookies": {
+    "message": "Diese Website nutzt Google Maps. Durch die Nutzung dieser Website stimmen Sie der Datenverarbeitung durch Google zu.",
+    "accept": "Verstanden"
+  },
   "contact": {
     "sectionTitle": "Kontakt",
     "subtitle": "Haben Sie Fragen oder möchten Sie eine Probestunde vereinbaren? Schreiben Sie uns!",

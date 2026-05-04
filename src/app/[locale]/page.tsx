@@ -1,6 +1,7 @@
 import { setRequestLocale } from "next-intl/server";
 import Script from "next/script";
 import Hero from "@/components/Hero";
+import TrialBanner from "@/components/TrialBanner";
 import AboutUs from "@/components/AboutUs";
 import Services from "@/components/Services";
 import Pricing from "@/components/Pricing";
@@ -9,6 +10,7 @@ import Partners from "@/components/Partners";
 import SocialCTA from "@/components/SocialCTA";
 import FAQ from "@/components/FAQ";
 import Contact from "@/components/Contact";
+import ScrollReveal from "@/components/ScrollReveal";
 
 export default async function Home({
   params,
@@ -45,14 +47,15 @@ export default async function Home({
         }}
       />
       <Hero />
-      <AboutUs />
-      <Services />
-      <Pricing />
-      <Reviews />
-      <Partners />
-      <SocialCTA />
-      <FAQ />
-      <Contact />
+      <TrialBanner />
+      <ScrollReveal><AboutUs /></ScrollReveal>
+      <ScrollReveal><Services /></ScrollReveal>
+      <ScrollReveal><Pricing /></ScrollReveal>
+      <ScrollReveal><Reviews /></ScrollReveal>
+      <ScrollReveal><Partners /></ScrollReveal>
+      <ScrollReveal><SocialCTA /></ScrollReveal>
+      <ScrollReveal><FAQ /></ScrollReveal>
+      <ScrollReveal><Contact /></ScrollReveal>
     </>
   );
 }
