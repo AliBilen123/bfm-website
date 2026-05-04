@@ -91,6 +91,10 @@
       }
     ]
   },
+  "partners": {
+    "sectionTitle": "Unsere Partner & Referenzen",
+    "subtitle": "Wir arbeiten mit lokalen Einrichtungen zusammen und sind anerkannter Anbieter für öffentlich geförderte Nachhilfe."
+  },
   "faq": {
     "sectionTitle": "Häufige Fragen",
     "items": [

@@ -91,6 +91,10 @@
       }
     ]
   },
+  "partners": {
+    "sectionTitle": "Ortaklarımız ve Referanslarımız",
+    "subtitle": "Yerel kurumlarla iş birliği yapıyoruz ve kamu destekli özel ders için onaylı bir sağlayıcıyız."
+  },
   "faq": {
     "sectionTitle": "Sıkça Sorulan Sorular",
     "items": [

@@ -91,6 +91,10 @@
       }
     ]
   },
+  "partners": {
+    "sectionTitle": "Our Partners & References",
+    "subtitle": "We work with local institutions and are a recognised provider of publicly funded tutoring."
+  },
   "faq": {
     "sectionTitle": "Frequently Asked Questions",
     "items": [

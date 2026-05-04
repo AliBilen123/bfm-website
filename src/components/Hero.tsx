@@ -32,8 +32,8 @@ export default function Hero() {
             {/* Stats */}
             <div className="mt-12 flex flex-wrap justify-center lg:justify-start gap-8 sm:gap-12">
               <div className="text-center">
-                <div className="text-3xl font-extrabold text-white">50+</div>
-                <div className="text-sm text-white/80 mt-1">Schüler</div>
+                <div className="text-3xl font-extrabold text-white">70+</div>
+                <div className="text-sm text-white/80 mt-1">Schüler*innen</div>
               </div>
               <div className="text-center">
                 <div className="text-3xl font-extrabold text-white">5+</div>
