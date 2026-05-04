@@ -20,7 +20,7 @@ export default function Footer() {
               alt="BFM Logo"
               width={200}
               height={104}
-              className="h-12 w-auto brightness-0 invert"
+              className="h-12 w-auto bg-white rounded-lg p-1"
             />
           </div>
 
