@@ -16,16 +16,16 @@
   },
   "about": {
     "sectionTitle": "About Us",
-    "intro": "We are Mehmet and Ali — two guys from Mühlacker with a mission: to provide students with the best possible support. With over 5 years of experience and more than 50 satisfied students, we personally stand for quality.",
+    "intro": "We are Mehmet and Ali — two qualified engineers from Mühlacker with a mission: to provide students with the best possible support. With over 5 years of experience and more than 50 satisfied students, we personally stand for quality.",
     "mehmet": {
       "name": "Mehmet Futsi",
-      "role": "Co-founder & Tutor",
-      "description": "Specialised in natural sciences and mathematics. A passionate educator whose goal is to give students not just knowledge, but also confidence."
+      "role": "Co-founder & Engineer",
+      "description": "Qualified engineer and laser technology expert. Makes complex scientific topics easy to understand and gives students both knowledge and confidence."
     },
     "ali": {
       "name": "Ali Bilen",
-      "role": "Co-founder & Tutor",
-      "description": "Expert in languages and humanities. Supports students with individual learning strategies and targeted exam preparation."
+      "role": "Co-founder & PhD Candidate",
+      "description": "Engineer and PhD candidate in production engineering. Expert in natural sciences and mathematics. Supports students with individual learning strategies and targeted exam preparation."
     }
   },
   "services": {

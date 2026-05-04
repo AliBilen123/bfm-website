@@ -27,7 +27,7 @@ export default function AboutUs() {
           {t("intro")}
         </p>
 
-        <div className="grid md:grid-cols-2 gap-12">
+        <div className="grid md:grid-cols-2 gap-12 max-w-4xl mx-auto">
           {members.map((member) => (
             <div
               key={member.key}
@@ -37,9 +37,8 @@ export default function AboutUs() {
                 <Image
                   src={member.image}
                   alt={t(`${member.key}.name`)}
-                  width={192}
-                  height={192}
-                  className="object-cover w-full h-full"
+                  fill
+                  className="object-cover object-top"
                 />
               </div>
               <h3 className="text-xl font-bold text-primary">
@@ -53,6 +52,28 @@ export default function AboutUs() {
               </p>
             </div>
           ))}
+        </div>
+
+        {/* Unterrichtsbilder */}
+        <div className="mt-16 grid sm:grid-cols-2 gap-6 max-w-4xl mx-auto">
+          <div className="rounded-2xl overflow-hidden shadow-md">
+            <Image
+              src="/images/unterricht1.jpg"
+              alt="Nachhilfe-Unterricht bei BFM"
+              width={800}
+              height={600}
+              className="w-full h-64 object-cover"
+            />
+          </div>
+          <div className="rounded-2xl overflow-hidden shadow-md">
+            <Image
+              src="/images/unterricht2.jpg"
+              alt="Schüler im Unterricht bei BFM"
+              width={800}
+              height={600}
+              className="w-full h-64 object-cover"
+            />
+          </div>
         </div>
       </div>
     </section>

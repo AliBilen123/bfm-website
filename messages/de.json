@@ -16,16 +16,16 @@
   },
   "about": {
     "sectionTitle": "Über uns",
-    "intro": "Wir sind Mehmet und Ali — zwei Mühlacker Jungs mit einer Mission: Schülern die bestmögliche Unterstützung zu bieten. Mit über 5 Jahren Erfahrung und mehr als 50 zufriedenen Schülern stehen wir persönlich für Qualität.",
+    "intro": "Wir sind Mehmet und Ali — zwei studierte Ingenieure aus Mühlacker mit einer Mission: Schüler*innen die bestmögliche Unterstützung zu bieten. Mit über 5 Jahren Erfahrung und mehr als 50 zufriedenen Schüler*innen stehen wir persönlich für Qualität.",
     "mehmet": {
       "name": "Mehmet Futsi",
-      "role": "Gründer & Nachhilfelehrer",
-      "description": "Spezialisiert auf Naturwissenschaften und Mathematik. Leidenschaftlicher Pädagoge mit dem Ziel, Schülern nicht nur Wissen, sondern auch Selbstvertrauen zu vermitteln."
+      "role": "Gründer & Ingenieur",
+      "description": "Studierter Ingenieur und Laserexperte. Bringt komplexe naturwissenschaftliche Themen verständlich auf den Punkt und vermittelt Schüler*innen neben Wissen auch Selbstvertrauen."
     },
     "ali": {
       "name": "Ali Bilen",
-      "role": "Gründer & Nachhilfelehrer",
-      "description": "Experte für Sprachen und geisteswissenschaftliche Fächer. Unterstützt Schüler mit individuellen Lernstrategien und gezielter Prüfungsvorbereitung."
+      "role": "Gründer & Doktorand",
+      "description": "Ingenieur und Doktorand im Bereich Produktionstechnik. Experte für Naturwissenschaften und Mathematik. Unterstützt Schüler*innen mit individuellen Lernstrategien und gezielter Prüfungsvorbereitung."
     }
   },
   "services": {

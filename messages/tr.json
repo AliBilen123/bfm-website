@@ -16,16 +16,16 @@
   },
   "about": {
     "sectionTitle": "Hakkımızda",
-    "intro": "Biz Mehmet ve Ali — bir misyonu olan iki Mühlackerli genç: Öğrencilere mümkün olan en iyi desteği sunmak. 5 yılı aşkın deneyim ve 50'den fazla memnun öğrenciyle kalite için kişisel olarak garanti veriyoruz.",
+    "intro": "Biz Mehmet ve Ali — Mühlacker'den iki mühendis diplomalı genç. Öğrencilere mümkün olan en iyi desteği sunmak için buradayız. 5 yılı aşkın deneyim ve 50'den fazla memnun öğrenciyle kalite için kişisel olarak garanti veriyoruz.",
     "mehmet": {
       "name": "Mehmet Futsi",
-      "role": "Kurucu & Özel Ders Öğretmeni",
-      "description": "Fen bilimleri ve matematik alanında uzmanlaşmıştır. Öğrencilere sadece bilgi değil, aynı zamanda özgüven kazandırmayı hedefleyen tutkulu bir eğitimci."
+      "role": "Kurucu & Mühendis",
+      "description": "Mühendis ve lazer uzmanı. Karmaşık fen bilimlerini anlaşılır şekilde aktarır ve öğrencilere bilginin yanı sıra özgüven kazandırır."
     },
     "ali": {
       "name": "Ali Bilen",
-      "role": "Kurucu & Özel Ders Öğretmeni",
-      "description": "Diller ve sosyal bilimler alanında uzman. Öğrencileri bireysel öğrenme stratejileri ve hedefli sınav hazırlığı ile destekler."
+      "role": "Kurucu & Doktora Öğrencisi",
+      "description": "Mühendis ve üretim tekniği alanında doktora öğrencisi. Fen bilimleri ve matematik uzmanı. Öğrencileri bireysel öğrenme stratejileri ve hedefli sınav hazırlığı ile destekler."
     }
   },
   "services": {
