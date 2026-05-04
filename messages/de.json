@@ -95,6 +95,10 @@
     "sectionTitle": "Unsere Partner & Referenzen",
     "subtitle": "Wir arbeiten mit lokalen Einrichtungen zusammen und sind anerkannter Anbieter für öffentlich geförderte Nachhilfe."
   },
+  "social": {
+    "title": "Folgt uns auf Social Media!",
+    "subtitle": "Lernhilfen, Tipps und Einblicke in unseren Nachhilfe-Alltag — folgt uns jetzt auf Instagram und TikTok!"
+  },
   "faq": {
     "sectionTitle": "Häufige Fragen",
     "items": [
@@ -103,8 +107,8 @@
         "answer": "Wir bieten Nachhilfe in allen gängigen Schulfächern an: Mathematik, Naturwissenschaften (Physik, Chemie, Biologie), Deutsch, Englisch, Französisch und Spanisch."
       },
       {
-        "question": "Wie läuft eine Probestunde ab?",
-        "answer": "In der Probestunde lernen wir den Schüler kennen, ermitteln den aktuellen Wissensstand und erstellen einen individuellen Lernplan. Die Probestunde ist unverbindlich."
+        "question": "Wie läuft ein kostenloser Schnuppertag ab?",
+        "answer": "Beim kostenlosen Schnuppertag lernen wir den Schüler bzw. die Schülerin kennen, ermitteln den aktuellen Wissensstand und erstellen einen individuellen Lernplan. Der Schnuppertag ist komplett unverbindlich und kostenlos."
       },
       {
         "question": "Wo findet die Nachhilfe statt?",
@@ -113,6 +117,10 @@
       {
         "question": "Kann ich die Häufigkeit wechseln?",
         "answer": "Ja, selbstverständlich. Sie können jederzeit zwischen unseren Paketen (1x, 2x oder 3x pro Woche) wechseln. Sprechen Sie uns einfach an."
+      },
+      {
+        "question": "Gibt es lange Vertragslaufzeiten?",
+        "answer": "Nein! Bei uns gibt es keine langen Verträge. Sie können bis zur Mitte des Monats zum Monatsende kündigen — flexibel und fair."
       }
     ]
   },

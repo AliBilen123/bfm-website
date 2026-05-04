@@ -95,6 +95,10 @@
     "sectionTitle": "Ortaklarımız ve Referanslarımız",
     "subtitle": "Yerel kurumlarla iş birliği yapıyoruz ve kamu destekli özel ders için onaylı bir sağlayıcıyız."
   },
+  "social": {
+    "title": "Bizi sosyal medyada takip edin!",
+    "subtitle": "Çalışma ipuçları, öğrenme hileleri ve özel ders günlüğümüz — Instagram ve TikTok'ta bizi takip edin!"
+  },
   "faq": {
     "sectionTitle": "Sıkça Sorulan Sorular",
     "items": [
@@ -103,8 +107,8 @@
         "answer": "Tüm yaygın okul derslerinde özel ders sunuyoruz: Matematik, Fen Bilimleri (Fizik, Kimya, Biyoloji), Almanca, İngilizce, Fransızca ve İspanyolca."
       },
       {
-        "question": "Deneme dersi nasıl işliyor?",
-        "answer": "Deneme dersinde öğrenciyi tanıyor, mevcut bilgi seviyesini belirliyoruz ve bireysel bir çalışma planı oluşturuyoruz. Deneme dersi bağlayıcı değildir."
+        "question": "Ücretsiz deneme günü nasıl işliyor?",
+        "answer": "Ücretsiz deneme gününde öğrenciyi tanıyor, mevcut bilgi seviyesini belirliyoruz ve bireysel bir çalışma planı oluşturuyoruz. Deneme günü tamamen ücretsiz ve bağlayıcı değildir."
       },
       {
         "question": "Özel ders nerede yapılıyor?",
@@ -113,6 +117,10 @@
       {
         "question": "Sıklığı değiştirebilir miyim?",
         "answer": "Evet, elbette. Paketlerimiz (haftada 1, 2 veya 3 kez) arasında istediğiniz zaman geçiş yapabilirsiniz. Bize ulaşmanız yeterli."
+      },
+      {
+        "question": "Uzun sözleşme süreleri var mı?",
+        "answer": "Hayır! Uzun sözleşmeler yapmıyoruz. Ayın ortasına kadar ay sonuna kadar iptal edebilirsiniz — esnek ve adil."
       }
     ]
   },

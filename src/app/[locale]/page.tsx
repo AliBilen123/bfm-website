@@ -6,6 +6,7 @@ import Services from "@/components/Services";
 import Pricing from "@/components/Pricing";
 import Reviews from "@/components/Reviews";
 import Partners from "@/components/Partners";
+import SocialCTA from "@/components/SocialCTA";
 import FAQ from "@/components/FAQ";
 import Contact from "@/components/Contact";
 
@@ -49,6 +50,7 @@ export default async function Home({
       <Pricing />
       <Reviews />
       <Partners />
+      <SocialCTA />
       <FAQ />
       <Contact />
     </>

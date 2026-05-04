@@ -95,6 +95,10 @@
     "sectionTitle": "Our Partners & References",
     "subtitle": "We work with local institutions and are a recognised provider of publicly funded tutoring."
   },
+  "social": {
+    "title": "Follow us on Social Media!",
+    "subtitle": "Study tips, learning hacks and insights into our tutoring — follow us on Instagram and TikTok!"
+  },
   "faq": {
     "sectionTitle": "Frequently Asked Questions",
     "items": [
@@ -103,8 +107,8 @@
         "answer": "We offer tutoring in all common school subjects: Mathematics, Natural Sciences (Physics, Chemistry, Biology), German, English, French and Spanish."
       },
       {
-        "question": "How does a trial lesson work?",
-        "answer": "In the trial lesson we get to know the student, assess their current level and create an individual study plan. The trial lesson is non-binding."
+        "question": "How does a free taster day work?",
+        "answer": "During the free taster day we get to know the student, assess their current level and create an individual study plan. The taster day is completely free and non-binding."
       },
       {
         "question": "Where does the tutoring take place?",
@@ -113,6 +117,10 @@
       {
         "question": "Can I change the frequency?",
         "answer": "Yes, of course. You can switch between our packages (1x, 2x or 3x per week) at any time. Just get in touch with us."
+      },
+      {
+        "question": "Are there long contract periods?",
+        "answer": "No! We don't have long contracts. You can cancel by mid-month for the end of that month — flexible and fair."
       }
     ]
   },
