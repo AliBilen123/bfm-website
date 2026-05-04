@@ -46,9 +46,9 @@ export default function Hero() {
             </div>
           </div>
 
-          {/* Team photo */}
+          {/* Team photo — fades into gradient */}
           <div className="hidden lg:flex justify-center">
-            <div className="relative w-[500px] h-[400px] rounded-2xl overflow-hidden shadow-2xl border-4 border-white/20">
+            <div className="relative w-[500px] h-[400px]">
               <Image
                 src="/images/team.jpg"
                 alt="Mehmet und Ali — BFM Gründer"
@@ -56,6 +56,11 @@ export default function Hero() {
                 className="object-cover object-top grayscale"
                 priority
               />
+              {/* Fade edges into background */}
+              <div className="absolute inset-0 [mask-image:radial-gradient(ellipse_80%_80%_at_50%_40%,black_40%,transparent_75%)]" style={{ background: 'inherit' }} />
+              <div className="absolute inset-0 bg-gradient-to-r from-primary/80 via-transparent to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-t from-primary/60 via-transparent to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-b from-primary/40 via-transparent to-transparent" />
             </div>
           </div>
         </div>
