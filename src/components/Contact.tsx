@@ -1,12 +1,13 @@
 "use client";
 
 import { useState, FormEvent } from "react";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import MapEmbed from "@/components/MapEmbed";
 import { track } from "@/lib/analytics";
 
 export default function Contact() {
   const t = useTranslations("contact");
+  const locale = useLocale();
   const [submitted, setSubmitted] = useState(false);
   const [error, setError] = useState(false);
 
@@ -69,33 +70,46 @@ export default function Contact() {
               </div>
             ) : (
               <form onSubmit={handleSubmit} className="space-y-5">
+                <label htmlFor="cf-name" className="sr-only">{t("form.name")}</label>
                 <input
+                  id="cf-name"
                   type="text"
                   name="name"
+                  autoComplete="name"
                   required
                   placeholder={t("form.name")}
                   className="w-full rounded-xl border border-gray-300 px-4 py-3 focus:border-accent focus:ring focus:ring-accent/20 outline-none transition"
                 />
+                <label htmlFor="cf-email" className="sr-only">{t("form.email")}</label>
                 <input
+                  id="cf-email"
                   type="email"
                   name="email"
+                  autoComplete="email"
                   required
                   placeholder={t("form.email")}
                   className="w-full rounded-xl border border-gray-300 px-4 py-3 focus:border-accent focus:ring focus:ring-accent/20 outline-none transition"
                 />
+                <label htmlFor="cf-phone" className="sr-only">{t("form.phone")}</label>
                 <input
+                  id="cf-phone"
                   type="tel"
                   name="phone"
+                  autoComplete="tel"
                   placeholder={t("form.phone")}
                   className="w-full rounded-xl border border-gray-300 px-4 py-3 focus:border-accent focus:ring focus:ring-accent/20 outline-none transition"
                 />
+                <label htmlFor="cf-subject" className="sr-only">{t("form.subject")}</label>
                 <input
+                  id="cf-subject"
                   type="text"
                   name="subject"
                   placeholder={t("form.subject")}
                   className="w-full rounded-xl border border-gray-300 px-4 py-3 focus:border-accent focus:ring focus:ring-accent/20 outline-none transition"
                 />
+                <label htmlFor="cf-message" className="sr-only">{t("form.message")}</label>
                 <textarea
+                  id="cf-message"
                   name="message"
                   required
                   rows={5}
@@ -109,6 +123,14 @@ export default function Contact() {
                 >
                   {t("form.submit")}
                 </button>
+
+                <p className="text-xs text-gray-500 text-center">
+                  {t("form.privacyNotice")}{" "}
+                  <a href={`/${locale}/datenschutz/`} className="underline hover:text-accent">
+                    {t("form.privacyLink")}
+                  </a>
+                  .
+                </p>
 
                 {error && (
                   <p className="text-red-600 text-sm text-center">

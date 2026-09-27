@@ -12,7 +12,12 @@
   "hero": {
     "title": "Qualifizierte Nachhilfe in Mühlacker",
     "subtitle": "Unterstützung aus Mühlacker — für Mühlacker! Wir begleiten Schüler individuell auf ihrem Weg zum schulischen Erfolg.",
-    "cta": "Jetzt anfragen"
+    "cta": "Jetzt anfragen",
+    "stats": {
+      "students": "Schüler*innen",
+      "years": "Jahre",
+      "satisfaction": "Zufriedenheit"
+    }
   },
   "about": {
     "sectionTitle": "Über uns",
@@ -23,9 +28,9 @@
       "description": "Studierter Ingenieur und Laserexperte. Bringt komplexe naturwissenschaftliche Themen verständlich auf den Punkt und vermittelt Schüler*innen neben Wissen auch Selbstvertrauen."
     },
     "ali": {
-      "name": "Ali Bilen",
-      "role": "Gründer & Doktorand",
-      "description": "Ingenieur und Doktorand im Bereich Produktionstechnik. Experte für Naturwissenschaften und Mathematik. Unterstützt Schüler*innen mit individuellen Lernstrategien und gezielter Prüfungsvorbereitung."
+      "name": "Dr.-Ing. Ali Bilen",
+      "role": "Gründer & promovierter Ingenieur",
+      "description": "Promovierter Ingenieur (Dr.-Ing.) im Bereich Produktionstechnik. Experte für Naturwissenschaften und Mathematik. Unterstützt Schüler*innen mit individuellen Lernstrategien und gezielter Prüfungsvorbereitung."
     }
   },
   "services": {
@@ -97,7 +102,8 @@
           "Bester Preis pro Sitzung"
         ]
       }
-    }
+    },
+    "currency": "€"
   },
   "reviews": {
     "sectionTitle": "Das sagen unsere Schüler",
@@ -140,7 +146,7 @@
       },
       {
         "question": "Wo findet die Nachhilfe statt?",
-        "answer": "Die Nachhilfe findet an unserem Standort in der Philipp-Bauer-Weg 2 in Mühlacker statt."
+        "answer": "Die Nachhilfe findet an unserem Standort im Philipp-Bauer-Weg 2 in Mühlacker statt. Schüler*innen aus allen Stadtteilen – z. B. Lomersheim, Dürrmenz, Enzberg, Großglattbach oder Mühlhausen – und aus der Umgebung sind herzlich willkommen."
       },
       {
         "question": "Kann ich die Häufigkeit wechseln?",
@@ -196,7 +202,9 @@
       "message": "Ihre Nachricht",
       "submit": "Nachricht senden",
       "success": "Vielen Dank! Wir melden uns innerhalb von 24 Stunden bei Ihnen.",
-      "error": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut."
+      "error": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.",
+      "privacyNotice": "Mit dem Absenden stimmen Sie zu, dass Ihre Angaben zur Bearbeitung Ihrer Anfrage verarbeitet werden. Details in der",
+      "privacyLink": "Datenschutzerklärung"
     },
     "info": {
       "phone": "+49 174 388 96 92",
@@ -210,7 +218,7 @@
   },
   "impressum": {
     "title": "Impressum",
-    "content": "Angaben gemäß § 5 TMG\n\nMehmet Futsi & Ali Bilen GbR\nBFM — Bildung für Mühlacker\nPhilipp-Bauer-Weg 2\n75417 Mühlacker\n\nKontakt:\nTelefon: +49 174 388 96 92\nE-Mail: info@bfm-muehlacker.de\n\nVerantwortlich für den Inhalt nach § 55 Abs. 2 RStV:\nMehmet Futsi & Ali Bilen\nPhilipp-Bauer-Weg 2\n75417 Mühlacker"
+    "content": "Angaben gemäß § 5 DDG\n\nMehmet Futsi & Ali Bilen GbR\nBFM — Bildung für Mühlacker\nPhilipp-Bauer-Weg 2\n75417 Mühlacker\n\nVertreten durch die Gesellschafter:\nMehmet Futsi\nDr.-Ing. Ali Bilen\n\nKontakt:\nTelefon: +49 174 388 96 92\nE-Mail: info@bfm-muehlacker.de\n\nVerantwortlich für den Inhalt nach § 18 Abs. 2 MStV:\nMehmet Futsi & Dr.-Ing. Ali Bilen\nPhilipp-Bauer-Weg 2\n75417 Mühlacker"
   },
   "datenschutz": {
     "title": "Datenschutzerklärung",
@@ -257,5 +265,9 @@
     "notice": "Zum Schutz Ihrer Daten wird Google Maps erst nach Ihrer Zustimmung geladen.",
     "load": "Karte laden",
     "openExternal": "In Google Maps öffnen"
+  },
+  "meta": {
+    "impressum": "Impressum",
+    "datenschutz": "Datenschutzerklärung"
   }
 }

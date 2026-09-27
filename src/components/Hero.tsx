@@ -6,6 +6,11 @@ import AnimatedCounter from "@/components/AnimatedCounter";
 
 export default function Hero() {
   const t = useTranslations("hero");
+  const stats = [
+    { target: 70, suffix: "+", label: t("stats.students") },
+    { target: 5, suffix: "+", label: t("stats.years") },
+    { target: 100, suffix: "%", label: t("stats.satisfaction") },
+  ];
 
   return (
     <section className="relative min-h-[85vh] flex items-center bg-gradient-to-br from-primary via-primary-light to-accent overflow-hidden">
@@ -51,18 +56,12 @@ export default function Hero() {
 
           {/* Stats */}
           <div className="mt-12 flex flex-wrap justify-center lg:justify-start gap-8 sm:gap-12">
-            <div className="text-center">
-              <div className="text-3xl font-extrabold text-white"><AnimatedCounter target={70} suffix="+" /></div>
-              <div className="text-sm text-white/80 mt-1">Schüler*innen</div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl font-extrabold text-white"><AnimatedCounter target={5} suffix="+" /></div>
-              <div className="text-sm text-white/80 mt-1">Jahre</div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl font-extrabold text-white"><AnimatedCounter target={100} suffix="%" /></div>
-              <div className="text-sm text-white/80 mt-1">Zufriedenheit</div>
-            </div>
+            {stats.map((s) => (
+              <div key={s.label} className="text-center">
+                <div className="text-3xl font-extrabold text-white"><AnimatedCounter target={s.target} suffix={s.suffix} /></div>
+                <div className="text-sm text-white/80 mt-1">{s.label}</div>
+              </div>
+            ))}
           </div>
         </div>
       </div>

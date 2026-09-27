@@ -1,27 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://bfm-muehlacker.de/de/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://bfm-muehlacker.de/de/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bfm-muehlacker.de/en/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://bfm-muehlacker.de/tr/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://bfm-muehlacker.de/ar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bfm-muehlacker.de/de/"/>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://bfm-muehlacker.de/en/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://bfm-muehlacker.de/de/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bfm-muehlacker.de/en/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://bfm-muehlacker.de/tr/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://bfm-muehlacker.de/ar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bfm-muehlacker.de/de/"/>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://bfm-muehlacker.de/tr/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://bfm-muehlacker.de/de/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bfm-muehlacker.de/en/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://bfm-muehlacker.de/tr/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://bfm-muehlacker.de/ar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bfm-muehlacker.de/de/"/>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://bfm-muehlacker.de/ar/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://bfm-muehlacker.de/de/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bfm-muehlacker.de/en/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://bfm-muehlacker.de/tr/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://bfm-muehlacker.de/ar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bfm-muehlacker.de/de/"/>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://bfm-muehlacker.de/de/impressum/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://bfm-muehlacker.de/de/impressum/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bfm-muehlacker.de/en/impressum/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://bfm-muehlacker.de/tr/impressum/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://bfm-muehlacker.de/ar/impressum/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bfm-muehlacker.de/de/impressum/"/>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://bfm-muehlacker.de/en/impressum/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://bfm-muehlacker.de/de/impressum/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bfm-muehlacker.de/en/impressum/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://bfm-muehlacker.de/tr/impressum/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://bfm-muehlacker.de/ar/impressum/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bfm-muehlacker.de/de/impressum/"/>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://bfm-muehlacker.de/tr/impressum/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://bfm-muehlacker.de/de/impressum/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bfm-muehlacker.de/en/impressum/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://bfm-muehlacker.de/tr/impressum/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://bfm-muehlacker.de/ar/impressum/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bfm-muehlacker.de/de/impressum/"/>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://bfm-muehlacker.de/ar/impressum/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://bfm-muehlacker.de/de/impressum/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bfm-muehlacker.de/en/impressum/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://bfm-muehlacker.de/tr/impressum/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://bfm-muehlacker.de/ar/impressum/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bfm-muehlacker.de/de/impressum/"/>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://bfm-muehlacker.de/de/datenschutz/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://bfm-muehlacker.de/de/datenschutz/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bfm-muehlacker.de/en/datenschutz/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://bfm-muehlacker.de/tr/datenschutz/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://bfm-muehlacker.de/ar/datenschutz/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bfm-muehlacker.de/de/datenschutz/"/>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://bfm-muehlacker.de/en/datenschutz/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://bfm-muehlacker.de/de/datenschutz/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bfm-muehlacker.de/en/datenschutz/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://bfm-muehlacker.de/tr/datenschutz/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://bfm-muehlacker.de/ar/datenschutz/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bfm-muehlacker.de/de/datenschutz/"/>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://bfm-muehlacker.de/tr/datenschutz/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://bfm-muehlacker.de/de/datenschutz/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bfm-muehlacker.de/en/datenschutz/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://bfm-muehlacker.de/tr/datenschutz/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://bfm-muehlacker.de/ar/datenschutz/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bfm-muehlacker.de/de/datenschutz/"/>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://bfm-muehlacker.de/ar/datenschutz/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://bfm-muehlacker.de/de/datenschutz/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bfm-muehlacker.de/en/datenschutz/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://bfm-muehlacker.de/tr/datenschutz/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://bfm-muehlacker.de/ar/datenschutz/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bfm-muehlacker.de/de/datenschutz/"/>
     <priority>0.3</priority>
   </url>
 </urlset>

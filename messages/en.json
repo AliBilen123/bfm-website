@@ -12,7 +12,12 @@
   "hero": {
     "title": "Qualified Tutoring in Mühlacker",
     "subtitle": "Support from Mühlacker — for Mühlacker! We personally guide students on their path to academic success.",
-    "cta": "Get in touch"
+    "cta": "Get in touch",
+    "stats": {
+      "students": "Students",
+      "years": "Years",
+      "satisfaction": "Satisfaction"
+    }
   },
   "about": {
     "sectionTitle": "About Us",
@@ -23,9 +28,9 @@
       "description": "Qualified engineer and laser technology expert. Makes complex scientific topics easy to understand and gives students both knowledge and confidence."
     },
     "ali": {
-      "name": "Ali Bilen",
-      "role": "Co-founder & PhD Candidate",
-      "description": "Engineer and PhD candidate in production engineering. Expert in natural sciences and mathematics. Supports students with individual learning strategies and targeted exam preparation."
+      "name": "Dr.-Ing. Ali Bilen",
+      "role": "Co-founder & Doctor of Engineering",
+      "description": "Engineer with a doctorate (Dr.-Ing.) in production engineering. Expert in natural sciences and mathematics. Supports students with individual learning strategies and targeted exam preparation."
     }
   },
   "services": {
@@ -97,7 +102,8 @@
           "Best price per session"
         ]
       }
-    }
+    },
+    "currency": "€"
   },
   "reviews": {
     "sectionTitle": "What our students say",
@@ -196,7 +202,9 @@
       "message": "Your message",
       "submit": "Send message",
       "success": "Thank you! We will get back to you within 24 hours.",
-      "error": "Something went wrong. Please try again."
+      "error": "Something went wrong. Please try again.",
+      "privacyNotice": "By submitting, you agree that your details will be processed to handle your request. Details in our",
+      "privacyLink": "privacy policy"
     },
     "info": {
       "phone": "+49 174 388 96 92",
@@ -210,7 +218,7 @@
   },
   "impressum": {
     "title": "Legal Notice",
-    "content": "Information pursuant to § 5 TMG\n\nMehmet Futsi & Ali Bilen GbR\nBFM — Bildung für Mühlacker\nPhilipp-Bauer-Weg 2\n75417 Mühlacker\n\nContact:\nPhone: +49 174 388 96 92\nE-mail: info@bfm-muehlacker.de\n\nResponsible for content pursuant to § 55 Abs. 2 RStV:\nMehmet Futsi & Ali Bilen\nPhilipp-Bauer-Weg 2\n75417 Mühlacker"
+    "content": "Information pursuant to § 5 DDG (German Digital Services Act)\n\nMehmet Futsi & Ali Bilen GbR\nBFM — Bildung für Mühlacker\nPhilipp-Bauer-Weg 2\n75417 Mühlacker\n\nRepresented by the partners:\nMehmet Futsi\nDr.-Ing. Ali Bilen\n\nContact:\nPhone: +49 174 388 96 92\nE-mail: info@bfm-muehlacker.de\n\nResponsible for content pursuant to § 18 Abs. 2 MStV:\nMehmet Futsi & Dr.-Ing. Ali Bilen\nPhilipp-Bauer-Weg 2\n75417 Mühlacker"
   },
   "datenschutz": {
     "title": "Privacy Policy",
@@ -257,5 +265,9 @@
     "notice": "To protect your data, Google Maps is only loaded after you agree.",
     "load": "Load map",
     "openExternal": "Open in Google Maps"
+  },
+  "meta": {
+    "impressum": "Legal notice",
+    "datenschutz": "Privacy policy"
   }
 }

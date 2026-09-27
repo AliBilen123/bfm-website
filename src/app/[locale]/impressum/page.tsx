@@ -1,4 +1,22 @@
+import type { Metadata } from "next";
 import { setRequestLocale, getTranslations } from "next-intl/server";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "meta" });
+  const langs = ["de", "en", "tr", "ar"] as const;
+  return {
+    title: t("impressum"),
+    alternates: {
+      canonical: `/${locale}/impressum/`,
+      languages: Object.fromEntries(langs.map((l) => [l, `/${l}/impressum/`])),
+    },
+  };
+}
 
 export default async function ImpressumPage({
   params,

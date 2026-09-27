@@ -44,7 +44,7 @@ export default function Pricing() {
                 <div className="mb-6">
                   <span className="text-sm text-gray-500">{t("from")} </span>
                   <span className="text-4xl font-extrabold text-primary">
-                    {t(`plans.${key}.price`)}
+                    {t(`plans.${key}.price`)}&nbsp;{t("currency")}
                   </span>
                   <span className="text-sm text-gray-500">
                     {" "}{t("perMonth")}

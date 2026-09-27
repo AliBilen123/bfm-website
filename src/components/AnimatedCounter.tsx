@@ -48,5 +48,11 @@ export default function AnimatedCounter({ target, suffix = "", duration = 2000 }
     return () => clearInterval(timer);
   }, [started, target, duration]);
 
-  return <span ref={ref}>{count}{suffix}</span>;
+  // Echte Zahl steht immer im HTML (für Google & Screenreader), die Animation ist nur Optik.
+  return (
+    <span ref={ref}>
+      <span className="sr-only">{target}{suffix}</span>
+      <span aria-hidden="true">{count}{suffix}</span>
+    </span>
+  );
 }

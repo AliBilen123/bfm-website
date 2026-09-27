@@ -12,7 +12,12 @@
   "hero": {
     "title": "دروس خصوصية متميزة في Mühlacker",
     "subtitle": "دعم من Mühlacker — لـ Mühlacker! نرافق الطلاب بشكل فردي في طريقهم نحو النجاح الدراسي.",
-    "cta": "تواصل معنا الآن"
+    "cta": "تواصل معنا الآن",
+    "stats": {
+      "students": "طالب وطالبة",
+      "years": "سنوات",
+      "satisfaction": "رضا"
+    }
   },
   "about": {
     "sectionTitle": "من نحن",
@@ -23,9 +28,9 @@
       "description": "مهندس وخبير في تقنية الليزر. يجعل المواضيع العلمية المعقدة سهلة الفهم ويمنح الطلاب المعرفة والثقة بالنفس."
     },
     "ali": {
-      "name": "Ali Bilen",
-      "role": "مؤسس وباحث دكتوراه",
-      "description": "مهندس وباحث دكتوراه في تقنية الإنتاج. خبير في العلوم الطبيعية والرياضيات. يدعم الطلاب باستراتيجيات تعلم فردية وتحضير مستهدف للامتحانات."
+      "name": "Dr.-Ing. Ali Bilen",
+      "role": "مؤسس ومهندس حاصل على الدكتوراه",
+      "description": "مهندس حاصل على الدكتوراه (Dr.-Ing.) في تقنية الإنتاج. خبير في العلوم الطبيعية والرياضيات. يدعم الطلاب باستراتيجيات تعلم فردية وتحضير مستهدف للامتحانات."
     }
   },
   "services": {
@@ -97,7 +102,8 @@
           "أفضل سعر للجلسة الواحدة"
         ]
       }
-    }
+    },
+    "currency": "€"
   },
   "reviews": {
     "sectionTitle": "ما يقوله طلابنا",
@@ -196,7 +202,9 @@
       "message": "رسالتك",
       "submit": "إرسال الرسالة",
       "success": "شكرًا جزيلًا! سنتواصل معك خلال 24 ساعة.",
-      "error": "حدث خطأ ما. يرجى المحاولة مرة أخرى."
+      "error": "حدث خطأ ما. يرجى المحاولة مرة أخرى.",
+      "privacyNotice": "بإرسال النموذج، توافق على معالجة بياناتك للرد على طلبك. التفاصيل في",
+      "privacyLink": "سياسة الخصوصية"
     },
     "info": {
       "phone": "+49 174 388 96 92",
@@ -210,7 +218,7 @@
   },
   "impressum": {
     "title": "البيانات القانونية",
-    "content": "بيانات وفقًا لـ § 5 TMG\n\nMehmet Futsi & Ali Bilen GbR\nBFM — Bildung für Mühlacker\nPhilipp-Bauer-Weg 2\n75417 Mühlacker\n\nللتواصل:\nهاتف: +49 174 388 96 92\nبريد إلكتروني: info@bfm-muehlacker.de\n\nالمسؤول عن المحتوى وفقًا لـ § 55 Abs. 2 RStV:\nMehmet Futsi & Ali Bilen\nPhilipp-Bauer-Weg 2\n75417 Mühlacker"
+    "content": "بيانات وفقًا لـ § 5 DDG\n\nMehmet Futsi & Ali Bilen GbR\nBFM — Bildung für Mühlacker\nPhilipp-Bauer-Weg 2\n75417 Mühlacker\n\nيمثلها الشركاء:\nMehmet Futsi\nDr.-Ing. Ali Bilen\n\nللتواصل:\nهاتف: +49 174 388 96 92\nبريد إلكتروني: info@bfm-muehlacker.de\n\nالمسؤول عن المحتوى وفقًا لـ § 18 Abs. 2 MStV:\nMehmet Futsi & Dr.-Ing. Ali Bilen\nPhilipp-Bauer-Weg 2\n75417 Mühlacker"
   },
   "datenschutz": {
     "title": "سياسة الخصوصية",
@@ -257,5 +265,9 @@
     "notice": "لحماية بياناتك، لا يتم تحميل خرائط Google إلا بعد موافقتك.",
     "load": "تحميل الخريطة",
     "openExternal": "فتح في خرائط Google"
+  },
+  "meta": {
+    "impressum": "بيانات الناشر",
+    "datenschutz": "سياسة الخصوصية"
   }
 }

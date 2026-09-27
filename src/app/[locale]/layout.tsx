@@ -33,6 +33,24 @@ export async function generateMetadata({
   };
 
   return {
+    metadataBase: new URL("https://bfm-muehlacker.de"),
+    alternates: {
+      canonical: `/${locale}/`,
+      languages: {
+        de: "/de/",
+        en: "/en/",
+        tr: "/tr/",
+        ar: "/ar/",
+        "x-default": "/de/",
+      },
+    },
+    icons: {
+      icon: [
+        { url: "/favicon.ico", sizes: "any" },
+        { url: "/icon-192.png", type: "image/png", sizes: "192x192" },
+      ],
+      apple: "/apple-touch-icon.png",
+    },
     title: {
       default: titles[locale] || titles.de,
       template: "%s | BFM Mühlacker",
@@ -41,7 +59,7 @@ export async function generateMetadata({
     openGraph: {
       title: "BFM — Bildung für Mühlacker",
       description: descriptions[locale] || descriptions.de,
-      url: "https://bfm-muehlacker.de",
+      url: `https://bfm-muehlacker.de/${locale}/`,
       siteName: "BFM Mühlacker",
       locale: localeMap[locale] || "de_DE",
       type: "website",

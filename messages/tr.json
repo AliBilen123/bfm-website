@@ -12,7 +12,12 @@
   "hero": {
     "title": "Mühlacker'de Nitelikli Özel Ders",
     "subtitle": "Mühlacker'den destek — Mühlacker için! Öğrencilere okul başarılarında bireysel olarak eşlik ediyoruz.",
-    "cta": "Hemen başvurun"
+    "cta": "Hemen başvurun",
+    "stats": {
+      "students": "Öğrenci",
+      "years": "Yıl",
+      "satisfaction": "Memnuniyet"
+    }
   },
   "about": {
     "sectionTitle": "Hakkımızda",
@@ -23,9 +28,9 @@
       "description": "Mühendis ve lazer uzmanı. Karmaşık fen bilimlerini anlaşılır şekilde aktarır ve öğrencilere bilginin yanı sıra özgüven kazandırır."
     },
     "ali": {
-      "name": "Ali Bilen",
-      "role": "Kurucu & Doktora Öğrencisi",
-      "description": "Mühendis ve üretim tekniği alanında doktora öğrencisi. Fen bilimleri ve matematik uzmanı. Öğrencileri bireysel öğrenme stratejileri ve hedefli sınav hazırlığı ile destekler."
+      "name": "Dr.-Ing. Ali Bilen",
+      "role": "Kurucu & Doktor Mühendis",
+      "description": "Üretim tekniği alanında doktorasını tamamlamış mühendis (Dr.-Ing.). Fen bilimleri ve matematik uzmanı. Öğrencileri bireysel öğrenme stratejileri ve hedefli sınav hazırlığı ile destekler."
     }
   },
   "services": {
@@ -97,7 +102,8 @@
           "Ders başına en iyi fiyat"
         ]
       }
-    }
+    },
+    "currency": "€"
   },
   "reviews": {
     "sectionTitle": "Öğrencilerimiz ne diyor",
@@ -196,7 +202,9 @@
       "message": "Mesajınız",
       "submit": "Mesaj gönder",
       "success": "Teşekkürler! 24 saat içinde size geri döneceğiz.",
-      "error": "Bir şeyler ters gitti. Lütfen tekrar deneyin."
+      "error": "Bir şeyler ters gitti. Lütfen tekrar deneyin.",
+      "privacyNotice": "Göndererek, bilgilerinizin talebinizin işlenmesi amacıyla kullanılmasını kabul etmiş olursunuz. Ayrıntılar için",
+      "privacyLink": "gizlilik politikası"
     },
     "info": {
       "phone": "+49 174 388 96 92",
@@ -210,7 +218,7 @@
   },
   "impressum": {
     "title": "Künye",
-    "content": "§ 5 TMG gereğince bilgiler\n\nMehmet Futsi & Ali Bilen GbR\nBFM — Bildung für Mühlacker\nPhilipp-Bauer-Weg 2\n75417 Mühlacker\n\nİletişim:\nTelefon: +49 174 388 96 92\nE-Posta: info@bfm-muehlacker.de\n\n§ 55 Abs. 2 RStV gereğince içerikten sorumlu:\nMehmet Futsi & Ali Bilen\nPhilipp-Bauer-Weg 2\n75417 Mühlacker"
+    "content": "§ 5 DDG gereğince bilgiler\n\nMehmet Futsi & Ali Bilen GbR\nBFM — Bildung für Mühlacker\nPhilipp-Bauer-Weg 2\n75417 Mühlacker\n\nOrtaklar tarafından temsil edilir:\nMehmet Futsi\nDr.-Ing. Ali Bilen\n\nİletişim:\nTelefon: +49 174 388 96 92\nE-Posta: info@bfm-muehlacker.de\n\n§ 18 Abs. 2 MStV gereğince içerikten sorumlu:\nMehmet Futsi & Dr.-Ing. Ali Bilen\nPhilipp-Bauer-Weg 2\n75417 Mühlacker"
   },
   "datenschutz": {
     "title": "Gizlilik Politikası",
@@ -257,5 +265,9 @@
     "notice": "Verilerinizi korumak için Google Haritalar yalnızca onayınızdan sonra yüklenir.",
     "load": "Haritayı yükle",
     "openExternal": "Google Haritalar'da aç"
+  },
+  "meta": {
+    "impressum": "Künye",
+    "datenschutz": "Gizlilik politikası"
   }
 }
