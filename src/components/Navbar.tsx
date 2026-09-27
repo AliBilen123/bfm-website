@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useTranslations, useLocale } from "next-intl";
 import Image from "next/image";
 import Link from "next/link";
@@ -27,6 +27,26 @@ export default function Navbar() {
   const locale = useLocale();
   const [open, setOpen] = useState(false);
   const [langOpen, setLangOpen] = useState(false);
+  const langRef = useRef<HTMLDivElement>(null);
+
+  // Sprachmenü schließen bei Klick/Tap außerhalb oder Escape
+  useEffect(() => {
+    if (!langOpen) return;
+    const onPointerDown = (e: PointerEvent) => {
+      if (langRef.current && !langRef.current.contains(e.target as Node)) {
+        setLangOpen(false);
+      }
+    };
+    const onKeyDown = (e: KeyboardEvent) => {
+      if (e.key === "Escape") setLangOpen(false);
+    };
+    document.addEventListener("pointerdown", onPointerDown);
+    document.addEventListener("keydown", onKeyDown);
+    return () => {
+      document.removeEventListener("pointerdown", onPointerDown);
+      document.removeEventListener("keydown", onKeyDown);
+    };
+  }, [langOpen]);
 
   const currentLang = languages.find((l) => l.code === locale) || languages[0];
 
@@ -73,7 +93,7 @@ export default function Navbar() {
               +49 174 388 96 92
             </a>
             {/* Language dropdown */}
-            <div className="relative">
+            <div className="relative" ref={langRef}>
               <button
                 onClick={() => setLangOpen(!langOpen)}
                 aria-label="Sprache / Language"
