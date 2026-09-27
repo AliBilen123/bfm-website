@@ -11,3 +11,21 @@ html {
 body {
   font-family: "Inter", system-ui, sans-serif;
 }
+
+/* Bewertungs-Laufband (Reviews.tsx) */
+.reviews-marquee {
+  mask-image: linear-gradient(to right, transparent, #000 6%, #000 94%, transparent);
+}
+.reviews-track {
+  animation: reviews-scroll 70s linear infinite;
+}
+@keyframes reviews-scroll {
+  from { transform: translateX(0); }
+  /* -50% = genau eine Kopie der Liste; 12px = halbe Lücke (gap-6) für nahtlosen Übergang */
+  to { transform: translateX(calc(-50% - 12px)); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .reviews-marquee { overflow-x: auto; mask-image: none; }
+  .reviews-track { animation: none; padding: 0 1rem; }
+  .reviews-dup { display: none; }
+}

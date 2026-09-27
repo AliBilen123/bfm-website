@@ -108,24 +108,14 @@
     "currency": "€"
   },
   "reviews": {
-    "sectionTitle": "Öğrencilerimiz ne diyor",
-    "items": [
-      {
-        "name": "Veli görüşü",
-        "text": "BFM sayesinde oğlum matematik notunu 5'ten 2'ye yükseltti. Bireysel destek mükemmel!",
-        "rating": 5
-      },
-      {
-        "name": "Öğrenci görüşü",
-        "text": "Gerçekten zaman ayıran çok iyi öğretmenler. Artık okulda kendimi çok daha güvende hissediyorum.",
-        "rating": 5
-      },
-      {
-        "name": "Veli görüşü",
-        "text": "Çok profesyonel ve güvenilir. Sınav hazırlığı kızıma çok yardımcı oldu. Kesinlikle tavsiye ederim!",
-        "rating": 5
-      }
-    ]
+    "sectionTitle": "Veliler ve öğrenciler ne diyor",
+    "subtitle": "Google'dan gerçek değerlendirmeler",
+    "summary": "{count} Google değerlendirmesi",
+    "allOnGoogle": "Tüm değerlendirmeleri Google'da oku",
+    "originalNote": "Değerlendirmeler orijinal Almanca hâliyle gösterilmektedir.",
+    "parent": "Veli",
+    "student": "Öğrenci",
+    "source": "Google değerlendirmesi"
   },
   "partners": {
     "sectionTitle": "Ortaklarımız ve Referanslarımız",

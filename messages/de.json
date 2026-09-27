@@ -108,24 +108,14 @@
     "currency": "€"
   },
   "reviews": {
-    "sectionTitle": "Das sagen unsere Schüler",
-    "items": [
-      {
-        "name": "Elternstimme",
-        "text": "Dank BFM hat mein Sohn seine Mathenote von einer 5 auf eine 2 verbessert. Die individuelle Betreuung ist hervorragend!",
-        "rating": 5
-      },
-      {
-        "name": "Schülerstimme",
-        "text": "Super nette Nachhilfelehrer, die sich wirklich Zeit nehmen. Ich fühle mich jetzt viel sicherer in der Schule.",
-        "rating": 5
-      },
-      {
-        "name": "Elternstimme",
-        "text": "Sehr professionell und zuverlässig. Die Prüfungsvorbereitung hat meiner Tochter sehr geholfen. Klare Empfehlung!",
-        "rating": 5
-      }
-    ]
+    "sectionTitle": "Das sagen Eltern und Schüler",
+    "subtitle": "Echte Bewertungen von Google",
+    "summary": "{count} Google-Bewertungen",
+    "allOnGoogle": "Alle Bewertungen auf Google lesen",
+    "originalNote": "",
+    "parent": "Elternteil",
+    "student": "Schüler*in",
+    "source": "Google-Bewertung"
   },
   "partners": {
     "sectionTitle": "Unsere Partner & Referenzen",

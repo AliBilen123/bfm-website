@@ -108,24 +108,14 @@
     "currency": "€"
   },
   "reviews": {
-    "sectionTitle": "What our students say",
-    "items": [
-      {
-        "name": "Parent review",
-        "text": "Thanks to BFM, my son improved his maths grade from a 5 to a 2. The individual support is excellent!",
-        "rating": 5
-      },
-      {
-        "name": "Student review",
-        "text": "Super friendly tutors who really take the time. I feel much more confident at school now.",
-        "rating": 5
-      },
-      {
-        "name": "Parent review",
-        "text": "Very professional and reliable. The exam preparation helped my daughter a great deal. Highly recommended!",
-        "rating": 5
-      }
-    ]
+    "sectionTitle": "What parents and students say",
+    "subtitle": "Genuine reviews from Google",
+    "summary": "{count} Google reviews",
+    "allOnGoogle": "Read all reviews on Google",
+    "originalNote": "Reviews are shown in their original German.",
+    "parent": "Parent",
+    "student": "Student",
+    "source": "Google review"
   },
   "partners": {
     "sectionTitle": "Our Partners & References",
