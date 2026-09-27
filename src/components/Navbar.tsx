@@ -19,6 +19,7 @@ const languages = [
   { code: "en", flag: "🇬🇧", label: "EN" },
   { code: "tr", flag: "🇹🇷", label: "TR" },
   { code: "ar", flag: "🇸🇦", label: "AR" },
+  { code: "ru", flag: "🇷🇺", label: "RU" },
 ] as const;
 
 export default function Navbar() {
@@ -97,7 +98,12 @@ export default function Navbar() {
                     <Link
                       key={lang.code}
                       href={`/${lang.code}/`}
-                      onClick={() => setLangOpen(false)}
+                      onClick={() => {
+                        setLangOpen(false);
+                        try {
+                          localStorage.setItem("bfm-lang", lang.code);
+                        } catch {}
+                      }}
                       className={`flex items-center gap-2 px-4 py-2 text-sm transition-colors ${
                         lang.code === locale
                           ? "bg-primary/5 text-primary font-semibold"

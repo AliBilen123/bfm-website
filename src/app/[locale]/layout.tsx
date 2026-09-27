@@ -21,15 +21,17 @@ export async function generateMetadata({
     en: "BFM — Qualified Tutoring in Mühlacker",
     tr: "BFM — Mühlacker'de Nitelikli Özel Ders",
     ar: "BFM — دروس خصوصية مؤهلة في مولاكر",
+    ru: "BFM — Качественное репетиторство в Мюлакере",
   };
   const descriptions: Record<string, string> = {
     de: "Individuelle Nachhilfe in Mühlacker. Alle Fächer, Prüfungsvorbereitung und Bewerbungscoaching. Über 50 zufriedene Schüler.",
     en: "Individual tutoring in Mühlacker. All subjects, exam preparation and application coaching. Over 50 satisfied students.",
     tr: "Mühlacker'de bireysel özel ders. Tüm dersler, sınav hazırlığı ve başvuru koçluğu.",
     ar: "دروس خصوصية فردية في مولاكر. جميع المواد، التحضير للامتحانات والتدريب على التقديم.",
+    ru: "Индивидуальное репетиторство в Мюлакере: все предметы, подготовка к экзаменам и помощь с резюме. Более 50 довольных учеников.",
   };
   const localeMap: Record<string, string> = {
-    de: "de_DE", en: "en_US", tr: "tr_TR", ar: "ar_SA",
+    de: "de_DE", en: "en_US", tr: "tr_TR", ar: "ar_SA", ru: "ru_RU",
   };
 
   return {
@@ -41,6 +43,7 @@ export async function generateMetadata({
         en: "/en/",
         tr: "/tr/",
         ar: "/ar/",
+        ru: "/ru/",
         "x-default": "/de/",
       },
     },
@@ -80,7 +83,7 @@ export default async function LocaleLayout({
 }) {
   const { locale } = await params;
 
-  if (!routing.locales.includes(locale as "de" | "en" | "tr" | "ar")) {
+  if (!routing.locales.includes(locale as (typeof routing.locales)[number])) {
     notFound();
   }
 

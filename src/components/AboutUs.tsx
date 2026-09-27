@@ -25,9 +25,31 @@ export default function AboutUs() {
         <h2 className="text-3xl sm:text-4xl font-extrabold text-primary text-center mb-4">
           {t("sectionTitle")}
         </h2>
-        <p className="text-gray-600 text-center max-w-3xl mx-auto mb-16 leading-relaxed">
-          {t("intro")}
-        </p>
+        <div className="grid md:grid-cols-2 gap-10 items-center max-w-5xl mx-auto mb-16">
+          <figure className="relative mx-auto w-full max-w-sm md:max-w-none">
+            <div className="absolute -inset-3 -rotate-2 rounded-3xl bg-gradient-to-br from-accent/20 to-orange-300/30" aria-hidden="true" />
+            <div className="relative overflow-hidden rounded-3xl shadow-xl">
+              <Image
+                src="/images/team-vor-ort.jpg"
+                alt={t("photoAlt")}
+                width={1000}
+                height={1060}
+                className="w-full h-auto object-cover"
+              />
+            </div>
+          </figure>
+          <div className="text-center md:text-left">
+            <p className="text-gray-600 text-lg leading-relaxed">
+              {t("intro")}
+            </p>
+            <p className="mt-6 inline-flex items-center gap-2 rounded-full bg-primary/5 px-4 py-2 text-sm font-semibold text-primary">
+              <svg className="h-4 w-4 text-accent" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                <path d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" />
+              </svg>
+              {t("photoCaption")}
+            </p>
+          </div>
+        </div>
 
         <div className="grid md:grid-cols-2 gap-12 max-w-4xl mx-auto">
           {members.map((member) => (

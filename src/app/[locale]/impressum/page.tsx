@@ -8,7 +8,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "meta" });
-  const langs = ["de", "en", "tr", "ar"] as const;
+  const langs = ["de", "en", "tr", "ar", "ru"] as const;
   return {
     title: t("impressum"),
     alternates: {

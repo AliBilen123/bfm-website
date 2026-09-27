@@ -1,10 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
   <head>
-    <meta http-equiv="refresh" content="0; url=/de/" />
-    <link rel="canonical" href="/de/" />
+    <meta charset="utf-8" />
+    <title>BFM — Bildung für Mühlacker</title>
+    <link rel="canonical" href="https://bfm-muehlacker.de/de/" />
+    <script>
+      // Sprache automatisch wählen: 1. frühere Auswahl, 2. Browsersprache, 3. Deutsch
+      (function () {
+        var supported = ["de", "en", "tr", "ar", "ru"];
+        var lang = null;
+        try {
+          var saved = localStorage.getItem("bfm-lang");
+          if (supported.indexOf(saved) !== -1) lang = saved;
+        } catch (e) {}
+        if (!lang) {
+          var prefs = navigator.languages || [navigator.language || "de"];
+          for (var i = 0; i < prefs.length && !lang; i++) {
+            var code = String(prefs[i]).slice(0, 2).toLowerCase();
+            if (supported.indexOf(code) !== -1) lang = code;
+          }
+        }
+        location.replace("/" + (lang || "de") + "/" + location.search + location.hash);
+      })();
+    </script>
+    <noscript><meta http-equiv="refresh" content="0; url=/de/" /></noscript>
   </head>
   <body>
-    <p>Redirecting to <a href="/de/">BFM — Bildung für Mühlacker</a></p>
+    <p>Weiterleitung zu <a href="/de/">BFM — Bildung für Mühlacker</a> …</p>
   </body>
 </html>
