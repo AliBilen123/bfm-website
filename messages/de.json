@@ -33,17 +33,29 @@
     "nachhilfe": {
       "title": "Nachhilfe",
       "description": "Individuelle Nachhilfe in allen Fächern — Mathematik, Naturwissenschaften, Deutsch, Englisch, Französisch und Spanisch. Von der Grundschule bis zum Abitur.",
-      "features": ["Alle Fächer", "Grundschule bis Abitur", "Individuelle Betreuung"]
+      "features": [
+        "Alle Fächer",
+        "Grundschule bis Abitur",
+        "Individuelle Betreuung"
+      ]
     },
     "pruefung": {
       "title": "Prüfungsvorbereitung",
       "description": "Gezielte Vorbereitung auf Abitur, Realschulabschluss und Hauptschulabschluss. Wir erarbeiten gemeinsam einen Lernplan und trainieren prüfungsrelevante Aufgaben.",
-      "features": ["Abitur", "Realschulabschluss", "Hauptschulabschluss"]
+      "features": [
+        "Abitur",
+        "Realschulabschluss",
+        "Hauptschulabschluss"
+      ]
     },
     "bewerbung": {
       "title": "Bewerbungscoaching",
       "description": "Professionelle Unterstützung bei Bewerbungen — von der Erstellung Ihrer Unterlagen bis zur Vorbereitung auf Vorstellungsgespräche.",
-      "features": ["Bewerbungsunterlagen", "Vorstellungsgespräche", "Karriereberatung"]
+      "features": [
+        "Bewerbungsunterlagen",
+        "Vorstellungsgespräche",
+        "Karriereberatung"
+      ]
     }
   },
   "pricing": {
@@ -57,17 +69,33 @@
       "once": {
         "title": "1x pro Woche",
         "price": "95",
-        "features": ["1 Sitzung pro Woche", "Individueller Lernplan", "Alle Fächer verfügbar", "Ideal bei gezieltem Förderbedarf"]
+        "features": [
+          "1 Sitzung pro Woche",
+          "Individueller Lernplan",
+          "Alle Fächer verfügbar",
+          "Ideal bei gezieltem Förderbedarf"
+        ]
       },
       "twice": {
         "title": "2x pro Woche",
         "price": "165",
-        "features": ["2 Sitzungen pro Woche", "Individueller Lernplan", "Alle Fächer verfügbar", "Für Schüler mit regelmäßigem Unterstützungsbedarf"]
+        "features": [
+          "2 Sitzungen pro Woche",
+          "Individueller Lernplan",
+          "Alle Fächer verfügbar",
+          "Für Schüler mit regelmäßigem Unterstützungsbedarf"
+        ]
       },
       "thrice": {
         "title": "3x pro Woche",
         "price": "220",
-        "features": ["3 Sitzungen pro Woche", "Individueller Lernplan", "Alle Fächer verfügbar", "Bei größeren Lücken in mehreren Fächern", "Bester Preis pro Sitzung"]
+        "features": [
+          "3 Sitzungen pro Woche",
+          "Individueller Lernplan",
+          "Alle Fächer verfügbar",
+          "Bei größeren Lücken in mehreren Fächern",
+          "Bester Preis pro Sitzung"
+        ]
       }
     }
   },
@@ -130,8 +158,32 @@
     "cta": "Schnuppertag vereinbaren"
   },
   "cookies": {
-    "message": "Diese Website nutzt Google Maps. Durch die Nutzung dieser Website stimmen Sie der Datenverarbeitung durch Google zu.",
-    "accept": "Verstanden"
+    "title": "Datenschutz-Einstellungen",
+    "message": "Wir nutzen Google Analytics und Google Ads, um zu verstehen, wie Besucher uns finden, und um unsere Werbung zu verbessern. Außerdem kann Google Maps geladen werden. Diese Dienste werden nur mit Ihrer Einwilligung aktiviert. Sie können Ihre Auswahl jederzeit im Footer unter „Cookie-Einstellungen“ ändern.",
+    "privacyLink": "Mehr in der Datenschutzerklärung",
+    "acceptAll": "Alle akzeptieren",
+    "rejectAll": "Nur notwendige",
+    "settings": "Einstellungen",
+    "save": "Auswahl speichern",
+    "footerLink": "Cookie-Einstellungen",
+    "categories": {
+      "necessary": {
+        "title": "Notwendig",
+        "description": "Speichert Ihre Datenschutz-Auswahl. Immer aktiv."
+      },
+      "statistics": {
+        "title": "Statistik (Google Analytics)",
+        "description": "Anonymisierte Auswertung, wie unsere Website genutzt wird."
+      },
+      "marketing": {
+        "title": "Marketing (Google Ads)",
+        "description": "Misst, ob eine Anfrage über eine Google-Anzeige zustande kam. Kein Remarketing."
+      },
+      "maps": {
+        "title": "Externe Medien (Google Maps)",
+        "description": "Zeigt die Karte zu unserem Standort an."
+      }
+    }
   },
   "contact": {
     "sectionTitle": "Kontakt",
@@ -176,13 +228,34 @@
         "text": "Wenn Sie uns über das Kontaktformular Anfragen zukommen lassen, werden Ihre Angaben aus dem Formular inklusive der dort angegebenen Kontaktdaten zur Bearbeitung der Anfrage bei uns gespeichert. Das Kontaktformular wird über den Dienst Formspree (formspree.io) verarbeitet. Formspree speichert Ihre Daten gemäß deren Datenschutzrichtlinie."
       },
       {
-        "heading": "4. Google Maps",
-        "text": "Diese Website nutzt den Kartendienst Google Maps. Anbieter ist die Google Ireland Limited. Durch die Nutzung von Google Maps können Informationen über Ihre Benutzung dieser Website an Google übertragen werden."
+        "heading": "4. Cookies und Einwilligung",
+        "text": "Beim ersten Besuch fragen wir Sie in einem Banner, welche Dienste Sie zulassen möchten. Ihre Auswahl wird im lokalen Speicher Ihres Browsers abgelegt (technisch notwendig, § 25 Abs. 2 TDDDG). Google Analytics, Google Ads und Google Maps werden nur mit Ihrer Einwilligung geladen (Art. 6 Abs. 1 lit. a DSGVO, § 25 Abs. 1 TDDDG). Sie können Ihre Einwilligung jederzeit mit Wirkung für die Zukunft über den Link „Cookie-Einstellungen“ im Footer widerrufen oder ändern."
       },
       {
-        "heading": "5. Ihre Rechte",
-        "text": "Sie haben das Recht auf Auskunft, Berichtigung, Löschung und Einschränkung der Verarbeitung Ihrer personenbezogenen Daten. Sie haben zudem das Recht, der Datenverarbeitung zu widersprechen und das Recht auf Datenübertragbarkeit. Zur Ausübung Ihrer Rechte kontaktieren Sie uns bitte unter info@bfm-muehlacker.de."
+        "heading": "5. Google Analytics",
+        "text": "Mit Ihrer Einwilligung nutzen wir Google Analytics 4 der Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland. Google Analytics setzt Cookies und erfasst z. B. aufgerufene Seiten, Verweildauer, ungefähren Standort, Gerät und Browser sowie Klicks auf Kontaktmöglichkeiten. IP-Adressen werden von Google Analytics 4 nicht gespeichert. Die Daten werden nach 14 Monaten gelöscht. Eine Übermittlung in die USA ist möglich; Google ist unter dem EU-US Data Privacy Framework zertifiziert."
+      },
+      {
+        "heading": "6. Google Ads Conversion-Tracking",
+        "text": "Mit Ihrer Einwilligung nutzen wir das Conversion-Tracking von Google Ads (Google Ireland Limited). Wenn Sie über eine unserer Google-Anzeigen auf unsere Website gelangen, wird ein Cookie gesetzt. So erfahren wir, ob nach dem Klick eine Anfrage gestellt wurde (z. B. Kontaktformular, Anruf oder WhatsApp). Wir erhalten nur statistische Gesamtzahlen, keine Informationen, mit denen wir Sie persönlich identifizieren können. Remarketing oder personalisierte Werbung findet nicht statt. Eine Übermittlung in die USA ist möglich (EU-US Data Privacy Framework)."
+      },
+      {
+        "heading": "7. Google Maps",
+        "text": "Auf unserer Website kann eine Karte von Google Maps (Google Ireland Limited) eingebunden werden. Die Karte wird erst geladen, wenn Sie zustimmen (Art. 6 Abs. 1 lit. a DSGVO). Dabei werden u. a. Ihre IP-Adresse und Browserinformationen an Google übertragen, ggf. auch in die USA."
+      },
+      {
+        "heading": "8. WhatsApp",
+        "text": "Wenn Sie uns über den WhatsApp-Button kontaktieren, werden Sie zu WhatsApp (WhatsApp Ireland Limited) weitergeleitet. Es gelten dann die Datenschutzbestimmungen von WhatsApp. Auf unserer Website selbst wird dabei kein WhatsApp-Skript geladen."
+      },
+      {
+        "heading": "9. Ihre Rechte",
+        "text": "Sie haben das Recht auf Auskunft, Berichtigung, Löschung und Einschränkung der Verarbeitung Ihrer personenbezogenen Daten, auf Datenübertragbarkeit sowie das Recht, der Verarbeitung zu widersprechen und erteilte Einwilligungen jederzeit zu widerrufen. Außerdem können Sie sich bei einer Datenschutz-Aufsichtsbehörde beschweren, z. B. beim Landesbeauftragten für den Datenschutz und die Informationsfreiheit Baden-Württemberg. Zur Ausübung Ihrer Rechte kontaktieren Sie uns bitte unter info@bfm-muehlacker.de."
       }
     ]
+  },
+  "map": {
+    "notice": "Zum Schutz Ihrer Daten wird Google Maps erst nach Ihrer Zustimmung geladen.",
+    "load": "Karte laden",
+    "openExternal": "In Google Maps öffnen"
   }
 }

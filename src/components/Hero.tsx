@@ -43,6 +43,7 @@ export default function Hero() {
           </p>
           <a
             href="#contact"
+            data-cta="hero"
             className="inline-block rounded-full bg-white px-8 py-4 text-lg font-bold text-primary shadow-lg hover:scale-105 transition-transform"
           >
             {t("cta")}

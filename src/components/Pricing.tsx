@@ -74,6 +74,7 @@ export default function Pricing() {
 
                 <a
                   href="#contact"
+                  data-cta={`pricing_${key}`}
                   className={`block w-full text-center rounded-full py-3 font-semibold transition-colors ${
                     isPopular
                       ? "bg-accent text-white hover:bg-accent-dark"

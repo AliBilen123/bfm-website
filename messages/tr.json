@@ -33,17 +33,29 @@
     "nachhilfe": {
       "title": "Özel Ders",
       "description": "Tüm derslerde bireysel özel ders — Matematik, Fen Bilimleri, Almanca, İngilizce, Fransızca ve İspanyolca. İlkokuldan abitura kadar.",
-      "features": ["Tüm dersler", "İlkokuldan abitura kadar", "Bireysel destek"]
+      "features": [
+        "Tüm dersler",
+        "İlkokuldan abitura kadar",
+        "Bireysel destek"
+      ]
     },
     "pruefung": {
       "title": "Sınav Hazırlığı",
       "description": "Abitur, Realschule ve Hauptschule diplomaları için hedefli hazırlık. Birlikte bir çalışma planı oluşturuyor ve sınav konularını çalışıyoruz.",
-      "features": ["Abitur", "Realschule diploması", "Hauptschule diploması"]
+      "features": [
+        "Abitur",
+        "Realschule diploması",
+        "Hauptschule diploması"
+      ]
     },
     "bewerbung": {
       "title": "Başvuru Koçluğu",
       "description": "Başvurularda profesyonel destek — belgelerinizin hazırlanmasından iş görüşmelerine hazırlığa kadar.",
-      "features": ["Başvuru belgeleri", "İş görüşmeleri", "Kariyer danışmanlığı"]
+      "features": [
+        "Başvuru belgeleri",
+        "İş görüşmeleri",
+        "Kariyer danışmanlığı"
+      ]
     }
   },
   "pricing": {
@@ -57,17 +69,33 @@
       "once": {
         "title": "Haftada 1 kez",
         "price": "95",
-        "features": ["Haftada 1 ders", "Bireysel çalışma planı", "Tüm dersler mevcut", "Hedefli destek ihtiyacı için ideal"]
+        "features": [
+          "Haftada 1 ders",
+          "Bireysel çalışma planı",
+          "Tüm dersler mevcut",
+          "Hedefli destek ihtiyacı için ideal"
+        ]
       },
       "twice": {
         "title": "Haftada 2 kez",
         "price": "165",
-        "features": ["Haftada 2 ders", "Bireysel çalışma planı", "Tüm dersler mevcut", "Düzenli destek ihtiyacı olan öğrenciler için"]
+        "features": [
+          "Haftada 2 ders",
+          "Bireysel çalışma planı",
+          "Tüm dersler mevcut",
+          "Düzenli destek ihtiyacı olan öğrenciler için"
+        ]
       },
       "thrice": {
         "title": "Haftada 3 kez",
         "price": "220",
-        "features": ["Haftada 3 ders", "Bireysel çalışma planı", "Tüm dersler mevcut", "Birden fazla derste büyük eksiklikler için", "Ders başına en iyi fiyat"]
+        "features": [
+          "Haftada 3 ders",
+          "Bireysel çalışma planı",
+          "Tüm dersler mevcut",
+          "Birden fazla derste büyük eksiklikler için",
+          "Ders başına en iyi fiyat"
+        ]
       }
     }
   },
@@ -130,8 +158,32 @@
     "cta": "Deneme günü ayarlayın"
   },
   "cookies": {
-    "message": "Bu web sitesi Google Maps kullanmaktadır. Bu web sitesini kullanarak Google tarafından veri işlenmesini kabul etmiş olursunuz.",
-    "accept": "Anladım"
+    "title": "Gizlilik ayarları",
+    "message": "Ziyaretçilerin bizi nasıl bulduğunu anlamak ve reklamlarımızı iyileştirmek için Google Analytics ve Google Ads kullanıyoruz. Ayrıca Google Haritalar yüklenebilir. Bu hizmetler yalnızca onayınızla etkinleştirilir. Seçiminizi istediğiniz zaman sayfanın altındaki „Çerez ayarları“ bağlantısından değiştirebilirsiniz.",
+    "privacyLink": "Gizlilik politikasında daha fazlası",
+    "acceptAll": "Tümünü kabul et",
+    "rejectAll": "Yalnızca gerekli",
+    "settings": "Ayarlar",
+    "save": "Seçimi kaydet",
+    "footerLink": "Çerez ayarları",
+    "categories": {
+      "necessary": {
+        "title": "Gerekli",
+        "description": "Gizlilik seçiminizi kaydeder. Her zaman etkin."
+      },
+      "statistics": {
+        "title": "İstatistik (Google Analytics)",
+        "description": "Web sitemizin nasıl kullanıldığının anonim analizi."
+      },
+      "marketing": {
+        "title": "Pazarlama (Google Ads)",
+        "description": "Bir talebin Google reklamı üzerinden gelip gelmediğini ölçer. Yeniden pazarlama yok."
+      },
+      "maps": {
+        "title": "Harici medya (Google Haritalar)",
+        "description": "Konumumuzun haritasını gösterir."
+      }
+    }
   },
   "contact": {
     "sectionTitle": "İletişim",
@@ -176,13 +228,34 @@
         "text": "Bize iletişim formu aracılığıyla sorular gönderdiğinizde, formda belirttiğiniz iletişim verileri dahil olmak üzere bilgileriniz talebin işlenmesi için tarafımızda saklanır. İletişim formu Formspree (formspree.io) hizmeti aracılığıyla işlenir."
       },
       {
-        "heading": "4. Google Maps",
-        "text": "Bu web sitesi Google Maps harita hizmetini kullanmaktadır. Sağlayıcı Google Ireland Limited'dir. Google Maps kullanımı yoluyla, bu web sitesini kullanımınız hakkında bilgiler Google'a iletilebilir."
+        "heading": "4. Çerezler ve onay",
+        "text": "İlk ziyaretinizde bir bannerda hangi hizmetlere izin vermek istediğiniz sorulur. Seçiminiz tarayıcınızın yerel belleğinde saklanır (teknik olarak gerekli, TDDDG md. 25 f. 2). Google Analytics, Google Ads ve Google Haritalar yalnızca onayınızla yüklenir (GDPR md. 6 f. 1 a, TDDDG md. 25 f. 1). Onayınızı istediğiniz zaman sayfanın altındaki „Çerez ayarları“ bağlantısından geleceğe yönelik olarak geri alabilir veya değiştirebilirsiniz."
       },
       {
-        "heading": "5. Haklarınız",
-        "text": "Kişisel verilerinizin bilgilendirilmesi, düzeltilmesi, silinmesi ve işlenmesinin kısıtlanması hakkına sahipsiniz. Ayrıca veri işlemeye itiraz etme ve veri taşınabilirliği hakkına sahipsiniz. Haklarınızı kullanmak için lütfen info@bfm-muehlacker.de adresinden bize ulaşın."
+        "heading": "5. Google Analytics",
+        "text": "Onayınızla Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, İrlanda tarafından sunulan Google Analytics 4'ü kullanıyoruz. Google Analytics çerez yerleştirir ve örneğin görüntülenen sayfaları, sitede kalma süresini, yaklaşık konumu, cihaz ve tarayıcıyı ve iletişim seçeneklerine yapılan tıklamaları kaydeder. Google Analytics 4 IP adreslerini saklamaz. Veriler 14 ay sonra silinir. ABD'ye aktarım mümkündür; Google, AB-ABD Veri Gizliliği Çerçevesi kapsamında sertifikalıdır."
+      },
+      {
+        "heading": "6. Google Ads dönüşüm izleme",
+        "text": "Onayınızla Google Ads dönüşüm izlemesini (Google Ireland Limited) kullanıyoruz. Web sitemize Google reklamlarımızdan biri üzerinden gelirseniz bir çerez yerleştirilir. Bu sayede tıklamadan sonra bir talep yapılıp yapılmadığını öğreniriz (ör. iletişim formu, arama veya WhatsApp). Yalnızca toplu istatistikler alırız, sizi kişisel olarak tanımlayan bilgiler almayız. Yeniden pazarlama veya kişiselleştirilmiş reklam yapılmaz. ABD'ye aktarım mümkündür (AB-ABD Veri Gizliliği Çerçevesi)."
+      },
+      {
+        "heading": "7. Google Haritalar",
+        "text": "Web sitemizde Google Haritalar (Google Ireland Limited) haritası yer alabilir. Harita yalnızca onay vermenizden sonra yüklenir (GDPR md. 6 f. 1 a). Bu sırada IP adresiniz ve tarayıcı bilgileriniz gibi veriler Google'a, gerekirse ABD'ye de aktarılır."
+      },
+      {
+        "heading": "8. WhatsApp",
+        "text": "WhatsApp butonu üzerinden bizimle iletişime geçerseniz WhatsApp'a (WhatsApp Ireland Limited) yönlendirilirsiniz; bu durumda WhatsApp'ın gizlilik politikası geçerlidir. Web sitemizde WhatsApp komut dosyası yüklenmez."
+      },
+      {
+        "heading": "9. Haklarınız",
+        "text": "Kişisel verilerinize ilişkin bilgi alma, düzeltme, silme ve işlemenin kısıtlanması, veri taşınabilirliği, işlemeye itiraz etme ve verdiğiniz onayları istediğiniz zaman geri alma hakkına sahipsiniz. Ayrıca bir veri koruma denetim makamına, örneğin Baden-Württemberg Eyaleti Veri Koruma ve Bilgi Edinme Özgürlüğü Görevlisi'ne şikâyette bulunabilirsiniz. Haklarınızı kullanmak için lütfen info@bfm-muehlacker.de adresinden bize ulaşın."
       }
     ]
+  },
+  "map": {
+    "notice": "Verilerinizi korumak için Google Haritalar yalnızca onayınızdan sonra yüklenir.",
+    "load": "Haritayı yükle",
+    "openExternal": "Google Haritalar'da aç"
   }
 }

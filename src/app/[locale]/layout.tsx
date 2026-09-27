@@ -7,6 +7,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import CookieBanner from "@/components/CookieBanner";
+import Analytics from "@/components/Analytics";
 import "../globals.css";
 
 export async function generateMetadata({
@@ -78,6 +79,7 @@ export default async function LocaleLayout({
           <Footer />
           <WhatsAppButton />
           <CookieBanner />
+          <Analytics />
         </NextIntlClientProvider>
       </body>
     </html>

@@ -37,6 +37,7 @@ export default function TrialBanner() {
           </p>
           <a
             href="#contact"
+            data-cta="trial_banner"
             className="inline-block px-8 py-4 bg-white text-orange-600 font-bold rounded-full text-lg hover:scale-105 transition-transform shadow-lg"
           >
             {t("cta")}
@@ -56,6 +57,7 @@ export default function TrialBanner() {
           </p>
           <a
             href="#contact"
+            data-cta="trial_sticky"
             className="px-5 py-1.5 bg-white text-orange-600 font-bold rounded-full text-sm hover:scale-105 transition-transform"
           >
             {t("cta")}

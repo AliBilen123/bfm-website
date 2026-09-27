@@ -2,6 +2,8 @@
 
 import { useState, FormEvent } from "react";
 import { useTranslations } from "next-intl";
+import MapEmbed from "@/components/MapEmbed";
+import { track } from "@/lib/analytics";
 
 export default function Contact() {
   const t = useTranslations("contact");
@@ -24,6 +26,7 @@ export default function Contact() {
 
       if (res.ok) {
         setSubmitted(true);
+        track("generate_lead", { form_name: "kontakt" }, "lead");
       } else {
         setError(true);
       }
@@ -133,7 +136,7 @@ export default function Contact() {
                     d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
                   />
                 </svg>
-                <span className="text-gray-700">{t("info.phone")}</span>
+                <a href={`tel:${t("info.phone").replace(/\s/g, "")}`} data-track-location="contact" className="text-gray-700 hover:text-accent">{t("info.phone")}</a>
               </div>
 
               <div className="flex items-center gap-3">
@@ -150,7 +153,7 @@ export default function Contact() {
                     d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                   />
                 </svg>
-                <span className="text-gray-700">{t("info.email")}</span>
+                <a href={`mailto:${t("info.email")}`} data-track-location="contact" className="text-gray-700 hover:text-accent">{t("info.email")}</a>
               </div>
 
               <div className="flex items-center gap-3">
@@ -178,16 +181,7 @@ export default function Contact() {
             </div>
 
             <div className="rounded-2xl overflow-hidden border border-gray-200 shadow-sm">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2618.5!2d8.839!3d48.946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sPhilipp-Bauer-Weg+2%2C+75417+M%C3%BChlacker!5e0!3m2!1sde!2sde!4v1"
-                width="100%"
-                height="300"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                title="Google Maps"
-              />
+              <MapEmbed />
             </div>
           </div>
         </div>

@@ -33,17 +33,29 @@
     "nachhilfe": {
       "title": "Tutoring",
       "description": "Individual tutoring in all subjects — Mathematics, Natural Sciences, German, English, French and Spanish. From primary school to the Abitur.",
-      "features": ["All subjects", "Primary school to Abitur", "Individual support"]
+      "features": [
+        "All subjects",
+        "Primary school to Abitur",
+        "Individual support"
+      ]
     },
     "pruefung": {
       "title": "Exam Preparation",
       "description": "Targeted preparation for the Abitur, Realschulabschluss and Hauptschulabschluss. We develop a study plan together and practise exam-relevant tasks.",
-      "features": ["Abitur", "Realschulabschluss", "Hauptschulabschluss"]
+      "features": [
+        "Abitur",
+        "Realschulabschluss",
+        "Hauptschulabschluss"
+      ]
     },
     "bewerbung": {
       "title": "Application Coaching",
       "description": "Professional support with job applications — from preparing your documents to getting ready for interviews.",
-      "features": ["Application documents", "Job interviews", "Career counselling"]
+      "features": [
+        "Application documents",
+        "Job interviews",
+        "Career counselling"
+      ]
     }
   },
   "pricing": {
@@ -57,17 +69,33 @@
       "once": {
         "title": "1x per week",
         "price": "95",
-        "features": ["1 session per week", "Individual study plan", "All subjects available", "Ideal for targeted support needs"]
+        "features": [
+          "1 session per week",
+          "Individual study plan",
+          "All subjects available",
+          "Ideal for targeted support needs"
+        ]
       },
       "twice": {
         "title": "2x per week",
         "price": "165",
-        "features": ["2 sessions per week", "Individual study plan", "All subjects available", "For students with regular support needs"]
+        "features": [
+          "2 sessions per week",
+          "Individual study plan",
+          "All subjects available",
+          "For students with regular support needs"
+        ]
       },
       "thrice": {
         "title": "3x per week",
         "price": "220",
-        "features": ["3 sessions per week", "Individual study plan", "All subjects available", "For larger gaps across multiple subjects", "Best price per session"]
+        "features": [
+          "3 sessions per week",
+          "Individual study plan",
+          "All subjects available",
+          "For larger gaps across multiple subjects",
+          "Best price per session"
+        ]
       }
     }
   },
@@ -130,8 +158,32 @@
     "cta": "Book a taster day"
   },
   "cookies": {
-    "message": "This website uses Google Maps. By using this website, you agree to data processing by Google.",
-    "accept": "Got it"
+    "title": "Privacy settings",
+    "message": "We use Google Analytics and Google Ads to understand how visitors find us and to improve our advertising. Google Maps may also be loaded. These services are only activated with your consent. You can change your choice at any time via “Cookie settings” in the footer.",
+    "privacyLink": "More in our privacy policy",
+    "acceptAll": "Accept all",
+    "rejectAll": "Necessary only",
+    "settings": "Settings",
+    "save": "Save selection",
+    "footerLink": "Cookie settings",
+    "categories": {
+      "necessary": {
+        "title": "Necessary",
+        "description": "Stores your privacy choice. Always active."
+      },
+      "statistics": {
+        "title": "Statistics (Google Analytics)",
+        "description": "Anonymous analysis of how our website is used."
+      },
+      "marketing": {
+        "title": "Marketing (Google Ads)",
+        "description": "Measures whether an inquiry came from a Google ad. No remarketing."
+      },
+      "maps": {
+        "title": "External media (Google Maps)",
+        "description": "Shows the map of our location."
+      }
+    }
   },
   "contact": {
     "sectionTitle": "Contact",
@@ -176,13 +228,34 @@
         "text": "If you send us enquiries via the contact form, your details from the form, including the contact information provided, will be stored with us for the purpose of processing the request. The contact form is processed via the Formspree service (formspree.io). Formspree stores your data in accordance with their privacy policy."
       },
       {
-        "heading": "4. Google Maps",
-        "text": "This website uses the Google Maps mapping service. The provider is Google Ireland Limited. Through the use of Google Maps, information about your use of this website may be transmitted to Google."
+        "heading": "4. Cookies and consent",
+        "text": "On your first visit, a banner asks which services you want to allow. Your choice is stored in your browser's local storage (technically necessary, Section 25(2) TDDDG). Google Analytics, Google Ads and Google Maps are only loaded with your consent (Art. 6(1)(a) GDPR, Section 25(1) TDDDG). You can withdraw or change your consent at any time with effect for the future via the “Cookie settings” link in the footer."
       },
       {
-        "heading": "5. Your rights",
-        "text": "You have the right to access, rectification, erasure and restriction of processing of your personal data. You also have the right to object to data processing and the right to data portability. To exercise your rights, please contact us at info@bfm-muehlacker.de."
+        "heading": "5. Google Analytics",
+        "text": "With your consent we use Google Analytics 4 by Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland. Google Analytics sets cookies and records e.g. pages viewed, time on site, approximate location, device and browser, and clicks on contact options. Google Analytics 4 does not store IP addresses. Data is deleted after 14 months. Transfer to the USA is possible; Google is certified under the EU-US Data Privacy Framework."
+      },
+      {
+        "heading": "6. Google Ads conversion tracking",
+        "text": "With your consent we use Google Ads conversion tracking (Google Ireland Limited). If you reach our website via one of our Google ads, a cookie is set. This tells us whether an inquiry followed the click (e.g. contact form, call or WhatsApp). We only receive aggregated statistics, no information that personally identifies you. No remarketing or personalised advertising takes place. Transfer to the USA is possible (EU-US Data Privacy Framework)."
+      },
+      {
+        "heading": "7. Google Maps",
+        "text": "Our website can embed a Google Maps map (Google Ireland Limited). The map is only loaded once you agree (Art. 6(1)(a) GDPR). Your IP address and browser information, among other things, are then transmitted to Google, possibly also to the USA."
+      },
+      {
+        "heading": "8. WhatsApp",
+        "text": "If you contact us via the WhatsApp button, you are redirected to WhatsApp (WhatsApp Ireland Limited), whose privacy policy then applies. No WhatsApp script is loaded on our website itself."
+      },
+      {
+        "heading": "9. Your rights",
+        "text": "You have the right to access, rectification, erasure and restriction of processing of your personal data, to data portability, to object to processing and to withdraw consent at any time. You may also lodge a complaint with a data protection supervisory authority, e.g. the State Commissioner for Data Protection and Freedom of Information Baden-Württemberg. To exercise your rights, please contact us at info@bfm-muehlacker.de."
       }
     ]
+  },
+  "map": {
+    "notice": "To protect your data, Google Maps is only loaded after you agree.",
+    "load": "Load map",
+    "openExternal": "Open in Google Maps"
   }
 }
