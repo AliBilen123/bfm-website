@@ -142,7 +142,7 @@
       },
       {
         "question": "Ücretsiz deneme günü nasıl işliyor?",
-        "answer": "Ücretsiz deneme gününde öğrenciyi tanıyor, mevcut bilgi seviyesini belirliyoruz ve bireysel bir çalışma planı oluşturuyoruz. Deneme günü tamamen ücretsiz ve bağlayıcı değildir."
+        "answer": "Ücretsiz deneme gününde öğrenciyi tanıyor, mevcut bilgi seviyesini belirliyoruz ve bireysel bir çalışma planı oluşturuyoruz. Deneme günü tamamen ücretsiz ve bağlayıcı değildir. Deneme dersleri pazartesi, çarşamba ve perşembe 17:30–19:00 arasında yapılır – tercih ettiğiniz tarihi doğrudan iletişim formunda seçebilirsiniz."
       },
       {
         "question": "Özel ders nerede yapılıyor?",
@@ -160,12 +160,20 @@
   },
   "trial": {
     "title": "Ücretsiz Deneme Günü!",
-    "subtitle": "Bizi bağlayıcı olmadan tanıyın — çocuğunuz bir gün boyunca ücretsiz derslere katılabilir.",
-    "cta": "Deneme günü ayarlayın"
+    "subtitle": "Bizi bağlayıcı olmadan tanıyın — çocuğunuz ücretsiz bir derse katılır: pazartesi, çarşamba veya perşembe 17:30–19:00 arası.",
+    "cta": "Deneme günü ayarlayın",
+    "badge": "%100 ücretsiz & bağlayıcı değil",
+    "next": "Sıradaki tarihler – tıklamanız yeterli:",
+    "slots": "Pzt · Çar · Per · 17:30–19:00",
+    "benefits": [
+      "Seviye tespiti",
+      "Kişisel öğrenme planı",
+      "Sözleşme yok, risk yok"
+    ]
   },
   "cookies": {
-    "title": "Gizlilik ayarları",
-    "message": "Ziyaretçilerin bizi nasıl bulduğunu anlamak ve reklamlarımızı iyileştirmek için Google Analytics ve Google Ads kullanıyoruz. Ayrıca Google Haritalar yüklenebilir. Bu hizmetler yalnızca onayınızla etkinleştirilir. Seçiminizi istediğiniz zaman sayfanın altındaki „Çerez ayarları“ bağlantısından değiştirebilirsiniz.",
+    "title": "Gizlilik",
+    "message": "Google Analytics, Google Ads ve Google Maps kullanıyoruz – ancak yalnızca onay verirseniz. Seçiminizi istediğiniz zaman alt bilgiden değiştirebilirsiniz.",
     "privacyLink": "Gizlilik politikasında daha fazlası",
     "acceptAll": "Tümünü kabul et",
     "rejectAll": "Yalnızca gerekli",
@@ -175,19 +183,19 @@
     "categories": {
       "necessary": {
         "title": "Gerekli",
-        "description": "Gizlilik seçiminizi kaydeder. Her zaman etkin."
+        "description": "Seçiminizi kaydeder. Her zaman aktif."
       },
       "statistics": {
         "title": "İstatistik (Google Analytics)",
-        "description": "Web sitemizin nasıl kullanıldığının anonim analizi."
+        "description": "Web sitesi nasıl kullanılıyor?"
       },
       "marketing": {
         "title": "Pazarlama (Google Ads)",
-        "description": "Bir talebin Google reklamı üzerinden gelip gelmediğini ölçer. Yeniden pazarlama yok."
+        "description": "Talep bir reklamdan mı geldi? Yeniden pazarlama yok."
       },
       "maps": {
         "title": "Harici medya (Google Haritalar)",
-        "description": "Konumumuzun haritasını gösterir."
+        "description": "Konumumuzun haritası."
       }
     }
   },
@@ -204,7 +212,14 @@
       "success": "Teşekkürler! 24 saat içinde size geri döneceğiz.",
       "error": "Bir şeyler ters gitti. Lütfen tekrar deneyin.",
       "privacyNotice": "Göndererek, bilgilerinizin talebinizin işlenmesi amacıyla kullanılmasını kabul etmiş olursunuz. Ayrıntılar için",
-      "privacyLink": "gizlilik politikası"
+      "privacyLink": "gizlilik politikası",
+      "trial": {
+        "label": "Ücretsiz deneme dersi için tercih ettiğiniz tarih",
+        "hint": "Pzt, Çar ve Per · 17:30–19:00. Tarihi e-posta veya telefonla onaylıyoruz.",
+        "none": "Deneme dersi yok – sadece soru",
+        "time": "17:30–19:00",
+        "more": "Diğer tarihler"
+      }
     },
     "info": {
       "phone": "+49 174 388 96 92",

@@ -142,7 +142,7 @@
       },
       {
         "question": "Wie läuft ein kostenloser Schnuppertag ab?",
-        "answer": "Beim kostenlosen Schnuppertag lernen wir den Schüler bzw. die Schülerin kennen, ermitteln den aktuellen Wissensstand und erstellen einen individuellen Lernplan. Der Schnuppertag ist komplett unverbindlich und kostenlos."
+        "answer": "Beim kostenlosen Schnuppertag lernen wir den Schüler bzw. die Schülerin kennen, ermitteln den aktuellen Wissensstand und erstellen einen individuellen Lernplan. Der Schnuppertag ist komplett unverbindlich und kostenlos. Schnuppertermine gibt es montags, mittwochs und donnerstags von 17:30 bis 19:00 Uhr – den Wunschtermin können Sie direkt im Kontaktformular auswählen."
       },
       {
         "question": "Wo findet die Nachhilfe statt?",
@@ -160,12 +160,20 @@
   },
   "trial": {
     "title": "Kostenloser Schnuppertag!",
-    "subtitle": "Lernen Sie uns unverbindlich kennen — Ihr Kind kann einen Tag lang kostenlos am Unterricht teilnehmen.",
-    "cta": "Schnuppertag vereinbaren"
+    "subtitle": "Lernen Sie uns unverbindlich kennen — Ihr Kind nimmt kostenlos an einer Unterrichtseinheit teil: montags, mittwochs oder donnerstags von 17:30 bis 19:00 Uhr.",
+    "cta": "Schnuppertag vereinbaren",
+    "badge": "100 % kostenlos & unverbindlich",
+    "next": "Nächste Termine – einfach anklicken:",
+    "slots": "Mo · Mi · Do · 17:30–19:00 Uhr",
+    "benefits": [
+      "Lernstand-Check",
+      "Persönlicher Lernplan",
+      "Kein Vertrag, kein Risiko"
+    ]
   },
   "cookies": {
-    "title": "Datenschutz-Einstellungen",
-    "message": "Wir nutzen Google Analytics und Google Ads, um zu verstehen, wie Besucher uns finden, und um unsere Werbung zu verbessern. Außerdem kann Google Maps geladen werden. Diese Dienste werden nur mit Ihrer Einwilligung aktiviert. Sie können Ihre Auswahl jederzeit im Footer unter „Cookie-Einstellungen“ ändern.",
+    "title": "Datenschutz",
+    "message": "Wir nutzen Google Analytics, Google Ads und Google Maps – aber nur, wenn Sie zustimmen. Ihre Auswahl können Sie jederzeit im Footer ändern.",
     "privacyLink": "Mehr in der Datenschutzerklärung",
     "acceptAll": "Alle akzeptieren",
     "rejectAll": "Nur notwendige",
@@ -175,19 +183,19 @@
     "categories": {
       "necessary": {
         "title": "Notwendig",
-        "description": "Speichert Ihre Datenschutz-Auswahl. Immer aktiv."
+        "description": "Speichert Ihre Auswahl. Immer aktiv."
       },
       "statistics": {
         "title": "Statistik (Google Analytics)",
-        "description": "Anonymisierte Auswertung, wie unsere Website genutzt wird."
+        "description": "Wie wird die Website genutzt?"
       },
       "marketing": {
         "title": "Marketing (Google Ads)",
-        "description": "Misst, ob eine Anfrage über eine Google-Anzeige zustande kam. Kein Remarketing."
+        "description": "Kam die Anfrage über eine Anzeige? Kein Remarketing."
       },
       "maps": {
         "title": "Externe Medien (Google Maps)",
-        "description": "Zeigt die Karte zu unserem Standort an."
+        "description": "Karte zum Standort."
       }
     }
   },
@@ -204,7 +212,14 @@
       "success": "Vielen Dank! Wir melden uns innerhalb von 24 Stunden bei Ihnen.",
       "error": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.",
       "privacyNotice": "Mit dem Absenden stimmen Sie zu, dass Ihre Angaben zur Bearbeitung Ihrer Anfrage verarbeitet werden. Details in der",
-      "privacyLink": "Datenschutzerklärung"
+      "privacyLink": "Datenschutzerklärung",
+      "trial": {
+        "label": "Wunschtermin für den kostenlosen Schnuppertag",
+        "hint": "Mo, Mi & Do · 17:30–19:00 Uhr. Wir bestätigen den Termin kurz per E-Mail oder Telefon.",
+        "none": "Kein Schnuppertag – nur Anfrage",
+        "time": "17:30–19:00",
+        "more": "Weitere Termine"
+      }
     },
     "info": {
       "phone": "+49 174 388 96 92",

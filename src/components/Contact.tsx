@@ -3,6 +3,7 @@
 import { useState, FormEvent } from "react";
 import { useTranslations, useLocale } from "next-intl";
 import MapEmbed from "@/components/MapEmbed";
+import TrialDatePicker from "@/components/TrialDatePicker";
 import { track } from "@/lib/analytics";
 
 export default function Contact() {
@@ -10,6 +11,7 @@ export default function Contact() {
   const locale = useLocale();
   const [submitted, setSubmitted] = useState(false);
   const [error, setError] = useState(false);
+  const [trialDate, setTrialDate] = useState("");
 
   async function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -27,7 +29,7 @@ export default function Contact() {
 
       if (res.ok) {
         setSubmitted(true);
-        track("generate_lead", { form_name: "kontakt" }, "lead");
+        track("generate_lead", { form_name: trialDate ? "schnuppertag" : "kontakt" }, "lead");
       } else {
         setError(true);
       }
@@ -107,6 +109,8 @@ export default function Contact() {
                   placeholder={t("form.subject")}
                   className="w-full rounded-xl border border-gray-300 px-4 py-3 focus:border-accent focus:ring focus:ring-accent/20 outline-none transition"
                 />
+                <TrialDatePicker value={trialDate} onChange={setTrialDate} />
+                <input type="hidden" name="schnuppertag" value={trialDate || "—"} />
                 <label htmlFor="cf-message" className="sr-only">{t("form.message")}</label>
                 <textarea
                   id="cf-message"

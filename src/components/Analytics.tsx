@@ -17,7 +17,7 @@ export default function Analytics() {
     window.addEventListener(CONSENT_EVENT, onConsent);
 
     const onClick = (e: MouseEvent) => {
-      const a = (e.target as HTMLElement | null)?.closest?.("a");
+      const a = (e.target as HTMLElement | null)?.closest?.("a, button[data-cta]") as HTMLElement | null;
       if (!a) return;
       const href = a.getAttribute("href") || "";
       const location = a.dataset.trackLocation || undefined;
