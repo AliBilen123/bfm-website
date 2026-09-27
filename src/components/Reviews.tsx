@@ -59,7 +59,7 @@ export default function Reviews() {
 
       {/* Laufband: Bewertungen laufen von rechts nach links, Pause bei Hover.
           Texte bleiben in allen Sprachen im deutschen Original. */}
-      <div className="reviews-marquee group relative overflow-hidden py-2" dir="ltr">
+      <div className="reviews-marquee group relative mx-auto max-w-5xl overflow-hidden py-2" dir="ltr">
         <div className="reviews-track flex w-max items-start gap-6 group-hover:[animation-play-state:paused] group-focus-within:[animation-play-state:paused]">
           {[...reviews, ...reviews].map((review, i) => (
             <figure

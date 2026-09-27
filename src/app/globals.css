@@ -14,7 +14,12 @@ body {
 
 /* Bewertungs-Laufband (Reviews.tsx) */
 .reviews-marquee {
-  mask-image: linear-gradient(to right, transparent, #000 6%, #000 94%, transparent);
+  --fade: 8%;
+  mask-image: linear-gradient(to right, transparent, #000 var(--fade), #000 calc(100% - var(--fade)), transparent);
+  -webkit-mask-image: linear-gradient(to right, transparent, #000 var(--fade), #000 calc(100% - var(--fade)), transparent);
+}
+@media (min-width: 768px) {
+  .reviews-marquee { --fade: 15%; }
 }
 .reviews-track {
   animation: reviews-scroll 70s linear infinite;
@@ -25,7 +30,7 @@ body {
   to { transform: translateX(calc(-50% - 12px)); }
 }
 @media (prefers-reduced-motion: reduce) {
-  .reviews-marquee { overflow-x: auto; mask-image: none; }
+  .reviews-marquee { overflow-x: auto; mask-image: none; -webkit-mask-image: none; }
   .reviews-track { animation: none; padding: 0 1rem; }
   .reviews-dup { display: none; }
 }
