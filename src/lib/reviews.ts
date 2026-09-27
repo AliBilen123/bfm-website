@@ -33,7 +33,7 @@ export const reviews: Review[] = [
   {
     name: "Moondi45",
     role: "student",
-    text: "Ich bin insgesamt wirklich sehr zufrieden mit der Nachhilfe und kann sie definitiv weiterempfehlen. Mehmet Abi ist unglaublich kompetent und kann einem wirklich bei jedem Thema weiterhelfen. […] Was ich ebenfalls besonders schätze, ist, dass wenn man später noch Fragen hat oder Inhalte nicht ganz verstanden hat, kann man den Fachkräften privat Bilder von Aufgaben schicken. […] Besonders hervorheben möchte ich außerdem, dass Abschlussklassen bei der Prüfungsvorbereitung sehr unterstützt werden.",
+    text: "Ich bin insgesamt wirklich sehr zufrieden mit der Nachhilfe und kann sie definitiv weiterempfehlen. Mehmet Abi ist unglaublich kompetent und kann einem wirklich bei jedem Thema weiterhelfen. […] Das zeigt, wie engagiert und hilfsbereit das gesamte Team ist.",
   },
   {
     name: "Alexandra I.",
