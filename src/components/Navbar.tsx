@@ -36,10 +36,10 @@ export default function Navbar() {
           {/* Logo */}
           <Link href={`/${locale}/`} className="flex items-center gap-2">
             <Image
-              src="/images/logo.png"
+              src="/images/logo.svg"
               alt="BFM Logo"
-              width={200}
-              height={104}
+              width={728}
+              height={380}
               priority
               className="h-10 w-auto"
             />

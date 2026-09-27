@@ -19,10 +19,10 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <Image
-              src="/images/logo.png"
+              src="/images/logo.svg"
               alt="BFM Logo"
-              width={200}
-              height={104}
+              width={728}
+              height={380}
               className="h-12 w-auto bg-white rounded-lg p-1 mb-4"
             />
             <p className="text-white/60 text-sm leading-relaxed">
